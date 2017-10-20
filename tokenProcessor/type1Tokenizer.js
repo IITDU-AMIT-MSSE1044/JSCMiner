@@ -8,14 +8,14 @@ var encoder = require('./hasingTokenizer');
 var tokenizer=require('./tokenizer');
 
 
-function getHasHValueOfToken(tokenString) {
-    var tokenInLine = getTokenSingleInLine(tokenString);
+function getHasHValueOfToken(code) {
+    var tokenInLine = getTokenSingleInLine(code);
     var hashCode = encoder.getMD5HashCode(tokenInLine);
     return hashCode;
 }
-function getTokenSingleInLine(tokenString) {
+function getTokenSingleInLine(code) {
     var token = "";
-    var tokenList = tokenizer.getTokenList(tokenString);
+    var tokenList = tokenizer.getTokenList(code);
     tokenList.forEach(function (element) {
         token += element;
     });

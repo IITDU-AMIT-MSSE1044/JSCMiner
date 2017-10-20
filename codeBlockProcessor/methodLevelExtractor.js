@@ -1,6 +1,5 @@
 module.exports.extractJSFile = extractJSFile;
 
-var util = require('./../util/util');
 var esprima = require('esprima');
 var estraverse = require('estraverse');
 var escodegen = require('escodegen');
@@ -32,18 +31,18 @@ function extractJSFile(File) {
 }
 
 function getExtractedFunction(node, File) {
-    var methodID = util.getUUID();
-    var method = new model.Method(File.fileID, File.fileName, File.filePath, methodID);
+    var method = new model.Method(File.fileID, File.fileName, File.filePath);
     var methodName = node.id ? node.id.name : "anonymous_functions";
     var startLine = node.loc.start.line;
     var endLine = node.loc.end.line;
-    var length = (endLine - startLine);
+    var methodLength = (endLine - startLine);
     var methodCode = escodegen.generate(node);
     method.setMethodName(methodName);
     method.setStartLine(startLine);
     method.setEndLine(endLine);
     method.setMethodCode(methodCode);
-    method.setLength(length);
+    method.setMethodLength(methodLength);
+
     return method;
 }
 

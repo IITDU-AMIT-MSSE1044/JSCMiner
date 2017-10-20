@@ -1,8 +1,8 @@
 /**
  * Created by Misu Be Imp on 9/22/2017.
  */
-var elasticlunr = require('elasticlunr'),
-    fs = require('fs');
+var elasticlunr = require('elasticlunr');
+var fs = require('fs');
 
 var idx = elasticlunr(function () {
     this.setRef('id');

@@ -4,8 +4,8 @@ module.exports.getFullTypeTwoTokenizer=getFullTypeTwoTokenizer;
 
 var esprima = require('esprima');
 
-function getParametricTokenize(program) {
-    var tokenObjectArray = getNormalToken(program);
+function getParametricTokenize(code) {
+    var tokenObjectArray = getNormalToken(code);
     var tokenCopied = getCopiedToken(tokenObjectArray);
     var setArray = getUniqueIdentifiersFromTokenObjectArray(tokenObjectArray);
     setArray.forEach(function (setElement, setIndex, set) {
@@ -18,8 +18,8 @@ function getParametricTokenize(program) {
     });
     return tokenCopied;
 }
-function getParametricPlusIdentifiersTokenize(program) {
-    var tokenObjectArray = getNormalToken(program);
+function getParametricPlusIdentifiersTokenize(code) {
+    var tokenObjectArray = getNormalToken(code);
     var tokenCopied = getCopiedToken(tokenObjectArray);
     var setArray = getUniqueIdentifiersFromTokenObjectArray(tokenObjectArray);
     setArray.forEach(function (setElement, setIndex, set) {
@@ -36,8 +36,8 @@ function getParametricPlusIdentifiersTokenize(program) {
     return tokenCopied;
 
 }
-function getFullTypeTwoTokenizer(program) {
-    var tokenObjectArray = getNormalToken(program);
+function getFullTypeTwoTokenizer(code) {
+    var tokenObjectArray = getNormalToken(code);
     var tokenCopied = getCopiedToken(tokenObjectArray);
     var setArray = getUniqueIdentifiersFromTokenObjectArray(tokenObjectArray);
     setArray.forEach(function (setElement, setIndex, set) {
@@ -54,8 +54,8 @@ function getFullTypeTwoTokenizer(program) {
     return tokenCopied;
 
 }
-function getNormalToken() {
-    var token = esprima.tokenize(program);
+function getNormalToken(code) {
+    var token = esprima.tokenize(code);
     return token;
 }
 function getCopiedToken(tokenArray) {
@@ -79,4 +79,5 @@ function getUniqueIdentifiersFromTokenObjectArray(tokenObjectArray) {
     });
     return setArray;
 }
+
 
