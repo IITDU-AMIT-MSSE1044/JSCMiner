@@ -5,9 +5,9 @@ var type2Tokenizer = require('./../tokenProcessor/type2Tokenizer');
 var detector = require("./../similarityCalculator/cloneDetectoOverlapSimilarityr");
 
 
-var inputDirectoryPath = 'D:\\Implementation Work\\Abrush\\Browser\\js';
-var outputClonePath = 'D:\\Clone.txt';
 
+var inputDirectoryPath = 'D:\\Masters\\MastersLab\\MastersNodeJSWork\\JSCMiner\\test-dataset\\scraperjs-src';
+var outputClonePath = 'D:\\Clone-type-2.txt';
 
 //get all file content*/
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);

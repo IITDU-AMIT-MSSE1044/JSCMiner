@@ -5,8 +5,8 @@ var type1Tokenizer = require('./../tokenProcessor/type1Tokenizer');
 var detector = require("./../similarityCalculator/cloneDetectoOverlapSimilarityr");
 
 
-var inputDirectoryPath = 'D:\\Implementation Work\\Abrush\\Browser\\js';
-var outputClonePath = 'D:\\Clone.txt';
+var inputDirectoryPath = 'D:\\Masters\\MastersLab\\MastersNodeJSWork\\JSCMiner\\test-dataset\\scraperjs-src';
+var outputClonePath = 'D:\\Clone-type-1.txt';
 
 
 //get all file content*/
@@ -21,7 +21,7 @@ list.forEach(function (element) {
 });
 
 
-methodList.forEach(function(method,index){
+methodList.forEach(function (method, index) {
     method.setMethodID(index);
 });
 
@@ -32,7 +32,7 @@ console.log(start);
 methodList.forEach(function (method) {
     //var tokenArray = type1Tokenizer.getNormalTokenObjectArray(method.methodCode);
     //var line=type1Tokenizer.getTokenSingleInLine(method.methodCode);
-    var hash=type1Tokenizer.getHasHValueOfToken(method.methodCode);
+    var hash = type1Tokenizer.getHasHValueOfToken(method.methodCode);
     method.setTokenHashValue(hash);
 });
 var end = new Date();
@@ -49,8 +49,11 @@ methodList.forEach(function (method) {
         if (method.methodID < candidate.methodID) {
             if ((method != undefined) && (candidate != undefined)) {
 
-                if (method.tokenHashValue===candidate.tokenHashValue) {
-                    clonePair.push({'ID_1':method.methodID,'ID_2':candidate.methodID,'first': method, 'second': candidate});
+                if (method.tokenHashValue === candidate.tokenHashValue) {
+                    clonePair.push({
+                        'first': method,
+                        'second': candidate
+                    });
                 }
             }
 
@@ -64,7 +67,11 @@ console.log((endDetecting.getTime() - startDetecting.getTime()) / 1000);
 console.log(clonePair.length);
 clonePair.forEach(function (pair) {
 
-    var clone =pair.ID_1 +'\n' + pair.ID_2+'\n' +pair.first.methodCode + '\n' + pair.second.methodCode + '\n'+"-----------------------------------" +'\n';
+    var clone = pair.first.methodID + '\n' + pair.second.methodID + '\n' +
+        pair.first.fileName+","+pair.first.startLine+","+pair.first.endLine+'\n'+
+        pair.second.fileName+","+pair.second.startLine+","+pair.second.endLine+'\n'+
+        pair.first.methodCode + '\n' + pair.second.methodCode
+        + '\n' + "----------------------------------------------------------------------" + '\n';
     fs.appendFileSync(outputClonePath, clone);
 });
 
