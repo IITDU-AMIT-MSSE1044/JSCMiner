@@ -44,21 +44,30 @@ methodList.forEach(function (method) {
     });
 
 });
-var k = getSortedMapByFollowingKeyOrder(globalMap);
-console.log(k);
+var globalSortedMap = getSortedMapByFollowingAssendingKeyOrder(globalMap);
+console.log(globalSortedMap);
 
-function getSortedMapByFollowingKeyOrder(mapToBeSorted) {
+methodList.forEach(function (method, index) {
+    var tokenMap=method.tokenFrequencyMap;
+    var sotedMapAccordingtoGlobal=sortMapByFollowingGlobalFrequencyOrder(tokenMap,globalSortedMap);
+    console.log("-------------------------------")
+    console.log(sotedMapAccordingtoGlobal);
+
+});
+
+
+function getSortedMapByFollowingAssendingKeyOrder(mapToBeSorted) {
     "use strict";
-    var sotableMapArray = [];
+    var sortableMapArray = [];
     mapToBeSorted.forEach(function (value, key, mapObj) {
-        sotableMapArray.push([key, value]);
+        sortableMapArray.push([key, value]);
     });
-    sotableMapArray.sort(function (a, b) {
+    sortableMapArray.sort(function (a, b) {
         return a[1] - b[1];
     });
     var sortedMap = new Map();
 
-    sotableMapArray.forEach(function (element) {
+    sortableMapArray.forEach(function (element) {
         sortedMap.set(element[0], element[1]);
     });
     return sortedMap;
@@ -73,7 +82,7 @@ function sortMapByFollowingGlobalFrequencyOrder(mapTobeSorted, globalMap) {
         localMapWithGlobalFrequencyOrder.set(maxKeyTerm, frequencyFromGlobalMap);
     });
 
-    var sortedLocalMapWithGlobalFrequencyOrder = getSortedMapByFollowingKeyOrder(localMapWithGlobalFrequencyOrder);
+    var sortedLocalMapWithGlobalFrequencyOrder = getSortedMapByFollowingAssendingKeyOrder(localMapWithGlobalFrequencyOrder);
     var localMapWithLocalKeyAfterSortingFollowingGlobalFrequencyOrder = new Map();
 
     sortedLocalMapWithGlobalFrequencyOrder.forEach(function (maxTermFrequency, maxKeyTerm, thismap) {

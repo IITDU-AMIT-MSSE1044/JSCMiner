@@ -1,0 +1,1468 @@
+"C:\Program Files (x86)\JetBrains\WebStorm 2016.1.2\bin\runnerw.exe" "C:\Program Files\nodejs\node.exe" GTPTest.js
+2017-10-22T17:30:12.094Z
+Map {
+  'been' => 1,
+  'be' => 1,
+  'onError' => 1,
+  '_setPromises' => 1,
+  'must' => 1,
+  'A' => 1,
+  'or' => 1,
+  'regular' => 1,
+  'params' => 1,
+  'expression' => 1,
+  'pathMatcher' => 1,
+  'Router' => 1,
+  'firstMatch' => 1,
+  'i' => 1,
+  '$1' => 1,
+  'w' => 1,
+  'concat' => 1,
+  'name' => 1,
+  'Error' => 1,
+  'phantomOrig' => 1,
+  'yet' => 1,
+  'initialized' => 1,
+  'cheerio' => 1,
+  'not' => 1,
+  '2' => 1,
+  'arguments' => 1,
+  'has' => 1,
+  'The' => 1,
+  'injectJs' => 1,
+  'slice' => 1,
+  'prototype' => 1,
+  'evaluate' => 1,
+  'images' => 1,
+  'no' => 1,
+  'Array' => 1,
+  'onStderr' => 2,
+  'e' => 2,
+  'string' => 2,
+  'onStdout' => 2,
+  '_setChainParameter' => 2,
+  'a' => 2,
+  'eachSeries' => 2,
+  'onStatusCode' => 2,
+  'uri' => 2,
+  'dispatcher' => 2,
+  'patternMatchingFunction' => 2,
+  'processGet' => 2,
+  'exec' => 2,
+  'onGenericStatusCode' => 2,
+  'load' => 2,
+  'apply' => 2,
+  'then' => 2,
+  'RegExp' => 2,
+  'doneFn' => 2,
+  'reduce' => 2,
+  'timeout' => 2,
+  'pathToRegExp' => 2,
+  'ScraperPromise' => 2,
+  'ScraperType' => 2,
+  'forEach' => 2,
+  'stack' => 2,
+  'processRequest' => 2,
+  '_createInstance' => 2,
+  'exit' => 2,
+  'PhantomPoll' => 2,
+  'instanceof' => 2,
+  'delay' => 2,
+  'extraArguments' => 3,
+  'message' => 3,
+  'try' => 3,
+  'at' => 3,
+  'setContent' => 3,
+  'catch' => 3,
+  'clone' => 3,
+  'unshift' => 3,
+  'typeof' => 3,
+  'scrapeFn' => 3,
+  'StaticScraper' => 3,
+  'replace' => 4,
+  'g' => 4,
+  'href' => 4,
+  'format' => 4,
+  'key' => 4,
+  'capture' => 4,
+  'chainParameter' => 4,
+  'success' => 4,
+  'true' => 4,
+  '$' => 4,
+  'scrape' => 4,
+  'firstMatchStop' => 4,
+  '_fire' => 4,
+  'AbstractScraper' => 4,
+  'setTimeout' => 4,
+  'close' => 4,
+  'getStatusCode' => 4,
+  'param' => 4,
+  'reqMethod' => 4,
+  'matcher' => 4,
+  'JQUERY_FILE' => 4,
+  'otherwiseFn' => 4,
+  'async' => 4,
+  'stopFlag' => 4,
+  'loadBody' => 4,
+  'fn' => 4,
+  'call' => 5,
+  'jQuery' => 5,
+  'into' => 5,
+  'stop' => 5,
+  'rqMethod' => 5,
+  'the' => 5,
+  'file' => 5,
+  '1' => 5,
+  'pathOrRE' => 5,
+  'pattern' => 5,
+  'createPage' => 5,
+  'scraperFn' => 5,
+  'flags' => 5,
+  'creating' => 5,
+  'create' => 6,
+  'time' => 6,
+  'errorCallback' => 6,
+  'waiting' => 6,
+  '_' => 6,
+  'callbackFn' => 6,
+  'index' => 6,
+  'ss' => 6,
+  'value' => 6,
+  'get' => 6,
+  'phantom' => 6,
+  'doneCallback' => 6,
+  'keep' => 7,
+  'atLeastOne' => 7,
+  'match' => 7,
+  'keys' => 7,
+  'promiseObj' => 8,
+  'promise' => 8,
+  'optional' => 8,
+  'code' => 8,
+  'Couldnt' => 8,
+  'throw' => 9,
+  'path' => 9,
+  'DynamicScraper' => 9,
+  'stopPointer' => 9,
+  'instance' => 9,
+  'request' => 9,
+  'obj' => 9,
+  'statusCode' => 10,
+  'false' => 10,
+  'slash' => 10,
+  'push' => 11,
+  'args' => 12,
+  'inject' => 12,
+  'error' => 15,
+  'ScraperError' => 15,
+  'undefined' => 16,
+  'options' => 18,
+  'ph' => 18,
+  'last' => 18,
+  'body' => 18,
+  'null' => 19,
+  'result' => 19,
+  'length' => 20,
+  'new' => 22,
+  'lastReturn' => 22,
+  'response' => 22,
+  'promises' => 26,
+  'page' => 29,
+  'var' => 30,
+  'else' => 32,
+  'url' => 43,
+  'scraper' => 44,
+  'if' => 48,
+  'return' => 54,
+  'done' => 62,
+  'utils' => 63,
+  'that' => 71,
+  'err' => 73,
+  'callback' => 87,
+  'this' => 129,
+  'function' => 173,
+  '' => 192 }
+-------------------------------
+Map {
+  'statusCode' => 1,
+  'body' => 1,
+  'null' => 3,
+  'response' => 1,
+  'url' => 1,
+  'this' => 4,
+  'function' => 1,
+  '' => 2 }
+-------------------------------
+Map {
+  'processGet' => 1,
+  'loadBody' => 1,
+  'href' => 1,
+  'get' => 1,
+  'request' => 2,
+  'statusCode' => 2,
+  'error' => 3,
+  'body' => 3,
+  'response' => 5,
+  'var' => 1,
+  'else' => 1,
+  'url' => 3,
+  'if' => 1,
+  'return' => 1,
+  'that' => 6,
+  'err' => 2,
+  'callback' => 3,
+  'this' => 2,
+  'function' => 3,
+  '' => 1 }
+-------------------------------
+Map {
+  'processGet' => 1,
+  'href' => 1,
+  'loadBody' => 1,
+  'request' => 1,
+  'statusCode' => 2,
+  'error' => 3,
+  'body' => 3,
+  'response' => 5,
+  'else' => 1,
+  'url' => 1,
+  'if' => 1,
+  'that' => 5,
+  'err' => 2,
+  'callback' => 2,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map { 'err' => 2, 'callback' => 1, 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'processRequest' => 1,
+  'loadBody' => 1,
+  'href' => 1,
+  'request' => 2,
+  'statusCode' => 2,
+  'error' => 3,
+  'options' => 2,
+  'body' => 3,
+  'response' => 5,
+  'var' => 1,
+  'else' => 1,
+  'url' => 1,
+  'if' => 1,
+  'return' => 1,
+  'that' => 6,
+  'err' => 2,
+  'callback' => 3,
+  'this' => 2,
+  'function' => 3,
+  '' => 1 }
+-------------------------------
+Map {
+  'processRequest' => 1,
+  'href' => 1,
+  'loadBody' => 1,
+  'request' => 1,
+  'statusCode' => 2,
+  'error' => 3,
+  'body' => 3,
+  'response' => 5,
+  'else' => 1,
+  'url' => 1,
+  'if' => 1,
+  'that' => 5,
+  'err' => 2,
+  'callback' => 2,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map { 'err' => 2, 'callback' => 1, 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'statusCode' => 1,
+  'return' => 1,
+  'this' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'response' => 1,
+  'return' => 1,
+  'this' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'body' => 1,
+  'return' => 1,
+  'this' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'return' => 1,
+  'done' => 2,
+  'this' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'scraperFn' => 1,
+  'callbackFn' => 1,
+  'args' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'ScraperType' => 2,
+  'ScraperPromise' => 1,
+  'get' => 1,
+  'promise' => 3,
+  'new' => 2,
+  'var' => 1,
+  'url' => 3,
+  'if' => 1,
+  'return' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'AbstractScraper' => 1,
+  'call' => 1,
+  'ph' => 1,
+  'null' => 2,
+  'page' => 1,
+  'this' => 3,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'no' => 1,
+  'images' => 1,
+  'onStderr' => 1,
+  'onStdout' => 1,
+  'load' => 1,
+  'setContent' => 1,
+  'JQUERY_FILE' => 1,
+  'into' => 1,
+  'the' => 1,
+  'createPage' => 1,
+  'jQuery' => 1,
+  'create' => 1,
+  'phantom' => 1,
+  'Couldnt' => 1,
+  'DynamicScraper' => 1,
+  'inject' => 2,
+  'ScraperError' => 1,
+  'undefined' => 1,
+  'body' => 1,
+  'ph' => 4,
+  'new' => 1,
+  'page' => 5,
+  'var' => 1,
+  'url' => 1,
+  'return' => 1,
+  'done' => 2,
+  'that' => 6,
+  'err' => 2,
+  'this' => 2,
+  'function' => 7,
+  '' => 4 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'setContent' => 1,
+  'JQUERY_FILE' => 1,
+  'the' => 1,
+  'createPage' => 1,
+  'into' => 1,
+  'jQuery' => 1,
+  'Couldnt' => 1,
+  'DynamicScraper' => 1,
+  'inject' => 2,
+  'ScraperError' => 1,
+  'undefined' => 1,
+  'ph' => 4,
+  'body' => 1,
+  'new' => 1,
+  'page' => 5,
+  'url' => 1,
+  'done' => 1,
+  'that' => 5,
+  'err' => 2,
+  'function' => 4,
+  '' => 3 }
+-------------------------------
+Map {
+  'setContent' => 1,
+  'JQUERY_FILE' => 1,
+  'the' => 1,
+  'into' => 1,
+  'jQuery' => 1,
+  'Couldnt' => 1,
+  'DynamicScraper' => 1,
+  'inject' => 2,
+  'ScraperError' => 1,
+  'undefined' => 1,
+  'body' => 1,
+  'new' => 1,
+  'page' => 5,
+  'url' => 1,
+  'done' => 1,
+  'that' => 4,
+  'err' => 2,
+  'function' => 3,
+  '' => 3 }
+-------------------------------
+Map {
+  'JQUERY_FILE' => 1,
+  'the' => 1,
+  'into' => 1,
+  'jQuery' => 1,
+  'Couldnt' => 1,
+  'DynamicScraper' => 1,
+  'inject' => 2,
+  'ScraperError' => 1,
+  'undefined' => 1,
+  'new' => 1,
+  'page' => 1,
+  'done' => 1,
+  'that' => 1,
+  'err' => 2,
+  'function' => 2,
+  '' => 3 }
+-------------------------------
+Map {
+  'the' => 1,
+  'into' => 1,
+  'jQuery' => 1,
+  'Couldnt' => 1,
+  'inject' => 1,
+  'ScraperError' => 1,
+  'undefined' => 1,
+  'new' => 1,
+  'page' => 1,
+  'done' => 1,
+  'err' => 2,
+  'function' => 1,
+  '' => 3 }
+-------------------------------
+Map {
+  'evaluate' => 1,
+  'apply' => 1,
+  'unshift' => 2,
+  'scraperFn' => 2,
+  'callbackFn' => 2,
+  'args' => 6,
+  'result' => 2,
+  'null' => 1,
+  'page' => 2,
+  'return' => 1,
+  'this' => 3,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map {
+  'callbackFn' => 1,
+  'result' => 2,
+  'null' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'yet' => 1,
+  'initialized' => 1,
+  'been' => 1,
+  'not' => 1,
+  'has' => 1,
+  'injectJs' => 1,
+  'The' => 1,
+  'at' => 2,
+  'success' => 2,
+  'file' => 4,
+  'code' => 2,
+  'Couldnt' => 2,
+  'throw' => 1,
+  'inject' => 2,
+  'ScraperError' => 2,
+  'new' => 2,
+  'page' => 3,
+  'else' => 2,
+  'if' => 2,
+  'callback' => 3,
+  'this' => 2,
+  'function' => 2,
+  '' => 7 }
+-------------------------------
+Map {
+  'at' => 1,
+  'success' => 2,
+  'file' => 1,
+  'code' => 1,
+  'Couldnt' => 1,
+  'inject' => 1,
+  'ScraperError' => 1,
+  'new' => 1,
+  'else' => 1,
+  'if' => 1,
+  'callback' => 2,
+  'function' => 1,
+  '' => 4 }
+-------------------------------
+Map {
+  'exit' => 1,
+  'close' => 1,
+  'ph' => 2,
+  'page' => 2,
+  'if' => 2,
+  'return' => 1,
+  'this' => 5,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'DynamicScraper' => 1,
+  'new' => 1,
+  'return' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'AbstractScraper' => 1,
+  'create' => 1,
+  'DynamicScraper' => 1,
+  'url' => 2,
+  'return' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'PhantomPoll' => 1,
+  'phantom' => 1,
+  'DynamicScraper' => 1,
+  'new' => 1,
+  'return' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'phantomOrig' => 1,
+  'instanceof' => 1,
+  'PhantomPoll' => 1,
+  'close' => 1,
+  'phantom' => 3,
+  'DynamicScraper' => 1,
+  'if' => 1,
+  'return' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  '_createInstance' => 1,
+  'onStderr' => 1,
+  'onStdout' => 1,
+  'flags' => 1,
+  'creating' => 1,
+  'waiting' => 1,
+  'instance' => 1,
+  'false' => 1,
+  'options' => 1,
+  'null' => 1,
+  'this' => 6,
+  'function' => 3,
+  '' => 2 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  '_createInstance' => 1,
+  'createPage' => 2,
+  'instance' => 2,
+  'page' => 2,
+  'var' => 1,
+  'else' => 1,
+  'if' => 1,
+  'that' => 2,
+  'callback' => 3,
+  'this' => 4,
+  'function' => 3,
+  '' => 1 }
+-------------------------------
+Map { 'page' => 2, 'callback' => 1, 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'createPage' => 1,
+  'that' => 1,
+  'callback' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'flags' => 3,
+  'options' => 3,
+  'callback' => 2,
+  'this' => 3,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'forEach' => 1,
+  'true' => 1,
+  'creating' => 3,
+  'flags' => 1,
+  'phantom' => 1,
+  'create' => 1,
+  'waiting' => 3,
+  'instance' => 1,
+  'false' => 1,
+  'push' => 1,
+  'options' => 1,
+  'ph' => 3,
+  'var' => 1,
+  'else' => 1,
+  'if' => 1,
+  'that' => 5,
+  'callback' => 5,
+  'this' => 6,
+  'function' => 3,
+  '' => 1 }
+-------------------------------
+Map {
+  'forEach' => 1,
+  'creating' => 1,
+  'waiting' => 2,
+  'instance' => 1,
+  'false' => 1,
+  'ph' => 3,
+  'that' => 4,
+  'callback' => 2,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map { 'ph' => 1, 'callback' => 2, 'function' => 1, '' => 1 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'exit' => 1,
+  'instance' => 2,
+  'if' => 1,
+  'this' => 2,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'i' => 1,
+  'concat' => 1,
+  '$1' => 1,
+  'w' => 1,
+  'RegExp' => 1,
+  'pathToRegExp' => 1,
+  'replace' => 4,
+  'g' => 4,
+  '$' => 1,
+  'capture' => 2,
+  'key' => 2,
+  'format' => 2,
+  '_' => 3,
+  'keys' => 2,
+  'optional' => 4,
+  'path' => 4,
+  'slash' => 5,
+  'push' => 1,
+  'new' => 1,
+  'if' => 1,
+  'return' => 3,
+  'function' => 2,
+  '' => 38 }
+-------------------------------
+Map {
+  'format' => 2,
+  'key' => 2,
+  'capture' => 2,
+  '_' => 3,
+  'keys' => 1,
+  'optional' => 4,
+  'slash' => 5,
+  'push' => 1,
+  'if' => 1,
+  'return' => 2,
+  'function' => 1,
+  '' => 17 }
+-------------------------------
+Map {
+  'firstMatch' => 1,
+  'firstMatchStop' => 1,
+  'otherwiseFn' => 1,
+  'false' => 1,
+  'options' => 4,
+  'promises' => 1,
+  'this' => 3,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'pathMatcher' => 1,
+  'Router' => 1,
+  'typeof' => 1,
+  'rqMethod' => 1,
+  'get' => 1,
+  'path' => 4,
+  'push' => 1,
+  'null' => 2,
+  'promises' => 1,
+  'var' => 1,
+  'url' => 2,
+  'scraper' => 1,
+  'if' => 1,
+  'return' => 2,
+  'callback' => 5,
+  'this' => 2,
+  'function' => 3,
+  '' => 2 }
+-------------------------------
+Map {
+  'url' => 2,
+  'return' => 1,
+  'callback' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  '1' => 1,
+  'rqMethod' => 1,
+  'get' => 1,
+  'throw' => 1,
+  'ScraperError' => 1,
+  'last' => 3,
+  'length' => 4,
+  'new' => 1,
+  'promises' => 2,
+  'var' => 1,
+  'else' => 1,
+  'url' => 2,
+  'scraper' => 2,
+  'if' => 1,
+  'return' => 1,
+  'this' => 3,
+  'function' => 2,
+  '' => 2 }
+-------------------------------
+Map {
+  'get' => 1,
+  'url' => 2,
+  'scraper' => 2,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'uri' => 1,
+  '1' => 1,
+  'rqMethod' => 1,
+  'throw' => 1,
+  'request' => 1,
+  'ScraperError' => 1,
+  'options' => 3,
+  'last' => 3,
+  'length' => 4,
+  'new' => 1,
+  'promises' => 2,
+  'var' => 1,
+  'else' => 1,
+  'url' => 2,
+  'scraper' => 2,
+  'if' => 1,
+  'return' => 1,
+  'this' => 3,
+  'function' => 2,
+  '' => 2 }
+-------------------------------
+Map {
+  'uri' => 1,
+  'request' => 1,
+  'options' => 2,
+  'url' => 2,
+  'scraper' => 2,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'otherwiseFn' => 1,
+  'return' => 1,
+  'callback' => 2,
+  'this' => 2,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'StaticScraper' => 1,
+  '1' => 1,
+  'ss' => 3,
+  'create' => 1,
+  'throw' => 1,
+  'ScraperError' => 1,
+  'last' => 4,
+  'length' => 4,
+  'new' => 1,
+  'promises' => 2,
+  'var' => 2,
+  'else' => 1,
+  'scraper' => 2,
+  'if' => 1,
+  'return' => 1,
+  'this' => 2,
+  'function' => 1,
+  '' => 2 }
+-------------------------------
+Map {
+  '1' => 1,
+  'throw' => 1,
+  'ScraperError' => 1,
+  'last' => 4,
+  'length' => 4,
+  'new' => 1,
+  'promises' => 2,
+  'var' => 1,
+  'else' => 1,
+  'scraper' => 4,
+  'if' => 1,
+  'return' => 1,
+  'this' => 3,
+  'function' => 1,
+  '' => 2 }
+-------------------------------
+Map {
+  '1' => 1,
+  'ss' => 3,
+  'create' => 1,
+  'throw' => 1,
+  'DynamicScraper' => 1,
+  'ScraperError' => 1,
+  'last' => 4,
+  'length' => 4,
+  'new' => 1,
+  'promises' => 2,
+  'var' => 2,
+  'else' => 1,
+  'scraper' => 2,
+  'if' => 1,
+  'return' => 1,
+  'this' => 2,
+  'function' => 1,
+  '' => 2 }
+-------------------------------
+Map {
+  '_setChainParameter' => 1,
+  'eachSeries' => 1,
+  'clone' => 1,
+  'matcher' => 2,
+  'reqMethod' => 2,
+  'firstMatchStop' => 1,
+  'otherwiseFn' => 1,
+  'stopFlag' => 2,
+  'async' => 1,
+  'true' => 1,
+  'rqMethod' => 1,
+  'atLeastOne' => 4,
+  'promiseObj' => 4,
+  'false' => 1,
+  'undefined' => 1,
+  'result' => 3,
+  'promises' => 1,
+  'var' => 3,
+  'else' => 1,
+  'url' => 4,
+  'scraper' => 6,
+  'if' => 2,
+  'return' => 1,
+  'done' => 4,
+  'that' => 3,
+  'callback' => 5,
+  'this' => 3,
+  'function' => 5,
+  '' => 2 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  '_setChainParameter' => 1,
+  'clone' => 1,
+  'matcher' => 2,
+  'stopFlag' => 1,
+  'true' => 1,
+  'firstMatchStop' => 1,
+  'reqMethod' => 2,
+  'rqMethod' => 1,
+  'atLeastOne' => 1,
+  'promiseObj' => 4,
+  'undefined' => 1,
+  'result' => 3,
+  'var' => 2,
+  'else' => 1,
+  'url' => 2,
+  'scraper' => 6,
+  'if' => 1,
+  'done' => 4,
+  'that' => 1,
+  'callback' => 1,
+  'function' => 2,
+  '' => 2 }
+-------------------------------
+Map {
+  'firstMatchStop' => 1,
+  'stopFlag' => 1,
+  'undefined' => 1,
+  'done' => 1,
+  'that' => 1,
+  'function' => 1,
+  '' => 2 }
+-------------------------------
+Map {
+  'otherwiseFn' => 1,
+  'atLeastOne' => 2,
+  'url' => 1,
+  'if' => 1,
+  'that' => 1,
+  'callback' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'expression' => 1,
+  'regular' => 1,
+  'or' => 1,
+  'be' => 1,
+  'must' => 1,
+  'A' => 1,
+  'RegExp' => 1,
+  'exec' => 1,
+  'a' => 2,
+  'string' => 2,
+  'pathToRegExp' => 1,
+  'reduce' => 1,
+  'patternMatchingFunction' => 1,
+  'instanceof' => 1,
+  'typeof' => 1,
+  'pathOrRE' => 5,
+  'pattern' => 4,
+  'value' => 2,
+  'index' => 2,
+  'match' => 3,
+  'keys' => 3,
+  'path' => 1,
+  'throw' => 1,
+  'obj' => 3,
+  'false' => 1,
+  'ScraperError' => 1,
+  'new' => 1,
+  'var' => 2,
+  'else' => 3,
+  'url' => 3,
+  'if' => 3,
+  'return' => 4,
+  'function' => 3,
+  '' => 2 }
+-------------------------------
+Map {
+  'patternMatchingFunction' => 1,
+  'reduce' => 1,
+  'exec' => 1,
+  'pattern' => 1,
+  'value' => 2,
+  'index' => 2,
+  'keys' => 1,
+  'match' => 3,
+  'obj' => 3,
+  'false' => 1,
+  'var' => 1,
+  'else' => 1,
+  'url' => 2,
+  'if' => 1,
+  'return' => 3,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map {
+  'value' => 2,
+  'index' => 2,
+  'match' => 1,
+  'obj' => 3,
+  'return' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'name' => 1,
+  'Error' => 1,
+  'stack' => 2,
+  'message' => 3,
+  'ScraperError' => 1,
+  'new' => 1,
+  'this' => 3,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'chainParameter' => 1,
+  'errorCallback' => 1,
+  'doneCallback' => 1,
+  'throw' => 1,
+  'null' => 1,
+  'promises' => 1,
+  'scraper' => 3,
+  'err' => 2,
+  'this' => 5,
+  'function' => 3,
+  '' => 1 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map { 'throw' => 1, 'err' => 2, 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'onGenericStatusCode' => 1,
+  'onStatusCode' => 1,
+  'typeof' => 1,
+  'getStatusCode' => 2,
+  'code' => 4,
+  'push' => 2,
+  'undefined' => 1,
+  'lastReturn' => 3,
+  'promises' => 2,
+  'else' => 2,
+  'scraper' => 2,
+  'if' => 2,
+  'return' => 1,
+  'done' => 4,
+  'utils' => 7,
+  'callback' => 4,
+  'this' => 5,
+  'function' => 4,
+  '' => 1 }
+-------------------------------
+Map {
+  'onGenericStatusCode' => 1,
+  'getStatusCode' => 1,
+  'lastReturn' => 1,
+  'scraper' => 1,
+  'done' => 2,
+  'utils' => 3,
+  'callback' => 1,
+  'this' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'onStatusCode' => 1,
+  'getStatusCode' => 1,
+  'code' => 1,
+  'undefined' => 1,
+  'lastReturn' => 2,
+  'else' => 1,
+  'scraper' => 1,
+  'if' => 1,
+  'done' => 2,
+  'utils' => 4,
+  'callback' => 1,
+  'this' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'Array' => 1,
+  'prototype' => 1,
+  'slice' => 1,
+  'arguments' => 1,
+  '2' => 1,
+  'scrapeFn' => 2,
+  'extraArguments' => 2,
+  'scrape' => 2,
+  'call' => 1,
+  'push' => 1,
+  'undefined' => 1,
+  'result' => 2,
+  'lastReturn' => 2,
+  'promises' => 1,
+  'var' => 1,
+  'else' => 1,
+  'scraper' => 1,
+  'if' => 1,
+  'return' => 1,
+  'done' => 3,
+  'utils' => 4,
+  'err' => 3,
+  'callback' => 2,
+  'this' => 3,
+  'function' => 3,
+  '' => 1 }
+-------------------------------
+Map {
+  'extraArguments' => 1,
+  'scrapeFn' => 1,
+  'scrape' => 2,
+  'undefined' => 1,
+  'result' => 2,
+  'lastReturn' => 2,
+  'else' => 1,
+  'scraper' => 1,
+  'if' => 1,
+  'done' => 3,
+  'utils' => 4,
+  'err' => 3,
+  'callback' => 1,
+  'this' => 1,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map {
+  'undefined' => 1,
+  'result' => 2,
+  'lastReturn' => 2,
+  'else' => 1,
+  'if' => 1,
+  'done' => 2,
+  'utils' => 3,
+  'err' => 3,
+  'callback' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'delay' => 1,
+  'setTimeout' => 1,
+  'time' => 2,
+  'push' => 1,
+  'lastReturn' => 1,
+  'promises' => 1,
+  'return' => 1,
+  'done' => 2,
+  'utils' => 3,
+  'callback' => 4,
+  'this' => 2,
+  'function' => 4,
+  '' => 1 }
+-------------------------------
+Map { 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'delay' => 1,
+  'setTimeout' => 1,
+  'time' => 1,
+  'lastReturn' => 1,
+  'done' => 2,
+  'utils' => 3,
+  'callback' => 1,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map {
+  'lastReturn' => 1,
+  'done' => 1,
+  'utils' => 2,
+  'callback' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'timeout' => 1,
+  'setTimeout' => 1,
+  'time' => 2,
+  'push' => 1,
+  'undefined' => 1,
+  'lastReturn' => 1,
+  'promises' => 1,
+  'return' => 1,
+  'done' => 2,
+  'utils' => 3,
+  'callback' => 2,
+  'this' => 2,
+  'function' => 3,
+  '' => 1 }
+-------------------------------
+Map {
+  'timeout' => 1,
+  'setTimeout' => 1,
+  'time' => 1,
+  'undefined' => 1,
+  'lastReturn' => 1,
+  'done' => 2,
+  'utils' => 3,
+  'callback' => 1,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map { 'utils' => 1, 'callback' => 1, 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'doneFn' => 2,
+  'doneCallback' => 1,
+  'return' => 1,
+  'this' => 2,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'then' => 1,
+  'push' => 1,
+  'lastReturn' => 1,
+  'promises' => 1,
+  'return' => 1,
+  'done' => 2,
+  'utils' => 3,
+  'callback' => 2,
+  'this' => 2,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map {
+  'then' => 1,
+  'lastReturn' => 1,
+  'done' => 2,
+  'utils' => 3,
+  'callback' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'async' => 1,
+  'push' => 1,
+  'lastReturn' => 1,
+  'promises' => 1,
+  'return' => 1,
+  'done' => 2,
+  'utils' => 3,
+  'callback' => 2,
+  'this' => 2,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map {
+  'async' => 1,
+  'lastReturn' => 1,
+  'done' => 2,
+  'utils' => 3,
+  'callback' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'errorCallback' => 1,
+  'return' => 1,
+  'callback' => 2,
+  'this' => 2,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  '_fire' => 1,
+  'get' => 1,
+  'var' => 1,
+  'url' => 2,
+  'scraper' => 1,
+  'return' => 1,
+  'that' => 2,
+  'err' => 2,
+  'this' => 3,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map { '_fire' => 1, 'that' => 1, 'err' => 2, 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  '_fire' => 1,
+  'request' => 1,
+  'options' => 2,
+  'var' => 1,
+  'scraper' => 1,
+  'return' => 1,
+  'that' => 2,
+  'err' => 2,
+  'this' => 3,
+  'function' => 2,
+  '' => 1 }
+-------------------------------
+Map { '_fire' => 1, 'that' => 1, 'err' => 2, 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'param' => 2,
+  'chainParameter' => 1,
+  'this' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'params' => 1,
+  'dispatcher' => 1,
+  'eachSeries' => 1,
+  'try' => 1,
+  'catch' => 1,
+  'fn' => 2,
+  'async' => 1,
+  'param' => 2,
+  'chainParameter' => 2,
+  'close' => 1,
+  'true' => 1,
+  'stop' => 3,
+  'call' => 1,
+  'doneCallback' => 2,
+  'errorCallback' => 2,
+  'keep' => 3,
+  'stopPointer' => 4,
+  'false' => 1,
+  'error' => 3,
+  'undefined' => 1,
+  'null' => 3,
+  'lastReturn' => 1,
+  'promises' => 1,
+  'var' => 2,
+  'else' => 2,
+  'scraper' => 2,
+  'if' => 5,
+  'return' => 1,
+  'done' => 4,
+  'utils' => 6,
+  'that' => 5,
+  'err' => 11,
+  'callback' => 4,
+  'this' => 7,
+  'function' => 5,
+  '' => 1 }
+-------------------------------
+Map {
+  'dispatcher' => 1,
+  'catch' => 1,
+  'try' => 1,
+  'fn' => 2,
+  'call' => 1,
+  'stop' => 1,
+  'keep' => 2,
+  'stopPointer' => 2,
+  'false' => 1,
+  'var' => 1,
+  'else' => 2,
+  'if' => 3,
+  'done' => 4,
+  'utils' => 2,
+  'that' => 1,
+  'err' => 7,
+  'callback' => 4,
+  'function' => 3,
+  '' => 1 }
+-------------------------------
+Map {
+  'keep' => 2,
+  'stopPointer' => 1,
+  'false' => 1,
+  'else' => 2,
+  'if' => 3,
+  'err' => 5,
+  'callback' => 3,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map { 'stopPointer' => 1, 'done' => 1, 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'close' => 1,
+  'stop' => 1,
+  'doneCallback' => 1,
+  'errorCallback' => 1,
+  'stopPointer' => 1,
+  'null' => 1,
+  'scraper' => 1,
+  'if' => 1,
+  'utils' => 3,
+  'that' => 3,
+  'err' => 4,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map { 'promises' => 3, 'this' => 1, 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'onError' => 1,
+  '_setPromises' => 1,
+  'ScraperPromise' => 1,
+  'clone' => 1,
+  'errorCallback' => 1,
+  'doneCallback' => 1,
+  'promise' => 5,
+  'instance' => 2,
+  'new' => 1,
+  'promises' => 1,
+  'var' => 1,
+  'scraper' => 1,
+  'return' => 1,
+  'done' => 1,
+  'this' => 4,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'AbstractScraper' => 1,
+  '$' => 1,
+  'call' => 1,
+  'null' => 1,
+  'this' => 2,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'cheerio' => 1,
+  'load' => 1,
+  '$' => 1,
+  'body' => 1,
+  'return' => 1,
+  'done' => 2,
+  'this' => 3,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'e' => 2,
+  'apply' => 1,
+  'unshift' => 1,
+  'catch' => 1,
+  'try' => 1,
+  '$' => 1,
+  'scraperFn' => 2,
+  'callbackFn' => 2,
+  'args' => 5,
+  'null' => 3,
+  'result' => 3,
+  'var' => 1,
+  'return' => 1,
+  'err' => 3,
+  'this' => 2,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map { 'return' => 1, 'this' => 1, 'function' => 1, '' => 1 }
+-------------------------------
+Map {
+  'StaticScraper' => 1,
+  'new' => 1,
+  'return' => 1,
+  'function' => 1,
+  '' => 1 }
+-------------------------------
+Map {
+  'StaticScraper' => 1,
+  'AbstractScraper' => 1,
+  'create' => 1,
+  'url' => 2,
+  'return' => 1,
+  'function' => 1,
+  '' => 1 }
+
+Process finished with exit code 0
