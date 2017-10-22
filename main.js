@@ -1,11 +1,12 @@
+var fs = require('fs');
 var filer = require("./codeBlockProcessor/fileContentReader");
 var parser = require("./codeBlockProcessor/methodLevelExtractor");
-var tokenizer = require('./tokenProcessor/type3Tokenizer');
+var type3Tokenizer = require('./tokenProcessor/type3Tokenizer');
 var detector = require("./similarityCalculator/cloneDetectoOverlapSimilarityr");
-var fs = require('fs');
 
-var inputDirectoryPath = 'D:\\Implementation Work\\Abrush\\Browser\\js';
-var outputClonePath = 'D:\\Implementation Work\\Abrush\\Browser\\js\\Clone.json';
+var inputDirectoryPath = 'D:\\Masters\\MastersLab\\MastersNodeJSWork\\JSCMiner\\tokenProcessor';
+var outputClonePath = 'D:\\Clone-type-3.txt';
+
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);
 
 var methodList = new Array();
@@ -16,13 +17,19 @@ list.forEach(function (element) {
     });
 });
 
+methodList.forEach(function (method, index) {
+    method.setMethodID(index);
+});
+
 var start = new Date();
 console.log(start);
 methodList.forEach(function (method) {
-    var tokenFrequencyMap = tokenizer.getTokenFrequencyMap(method.methodCode);
+    var tokenFrequencyMap = type3Tokenizer.getTokenFrequencyMap(method.methodCode);
     //add desired token with the method;
     method.setTokenFrequencyMap(tokenFrequencyMap);
 });
+
+
 var end = new Date();
 console.log(end);
 console.log("Tokenizeing time");
@@ -30,12 +37,12 @@ console.log((end.getTime() - start.getTime()) / 1000);
 
 
 var startDetecting = new Date();
-var threashold = 1;
+var threashold =0.80;
 var clonePair = new Array();
 
 methodList.forEach(function (method) {
     methodList.forEach(function (candidate) {
-        if (method.methodID != candidate.methodID) {
+        if (method.methodID < candidate.methodID) {
             if ((method != undefined) && (candidate != undefined)) {
                 var isClone = detector.detectClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, threashold);
                 if (isClone) {
@@ -47,14 +54,16 @@ methodList.forEach(function (method) {
     });
 });
 var endDetecting = new Date();
-
 console.log("Detection Done");
 console.log((endDetecting.getTime() - startDetecting.getTime()) / 1000);
-
+console.log(clonePair.length);
 clonePair.forEach(function (pair) {
 
-    var clone = pair.first.methodCode + '\n' + pair.second.methodCode + '\n';
-
+    var clone = pair.first.methodID + '\n' + pair.second.methodID + '\n' +
+        pair.first.fileName + "," + pair.first.startLine + "," + pair.first.endLine + '\n' +
+        pair.second.fileName + "," + pair.second.startLine + "," + pair.second.endLine + '\n' +
+        pair.first.methodCode + '\n' + pair.second.methodCode
+        + '\n' + "----------------------------------------------------------------------" + '\n';
     fs.appendFileSync(outputClonePath, clone);
 });
 

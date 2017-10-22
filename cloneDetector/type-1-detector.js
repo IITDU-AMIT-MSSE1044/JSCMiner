@@ -5,7 +5,7 @@ var type1Tokenizer = require('./../tokenProcessor/type1Tokenizer');
 var detector = require("./../similarityCalculator/cloneDetectoOverlapSimilarityr");
 
 
-var inputDirectoryPath = 'D:\\Masters\\MastersLab\\MastersNodeJSWork\\JSCMiner\\test-dataset\\scraperjs-src';
+var inputDirectoryPath = 'D:\\Masters\\MastersLab\\MastersNodeJSWork\\JSCMiner\\tokenProcessor';
 var outputClonePath = 'D:\\Clone-type-1.txt';
 
 
