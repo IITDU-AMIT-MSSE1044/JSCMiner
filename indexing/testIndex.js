@@ -1,6 +1,3 @@
-/**
- * Created by Misu Be Imp on 9/22/2017.
- */
 var elasticlunr = require('elasticlunr');
 var fs = require('fs');
 
@@ -28,8 +25,17 @@ fs.readFile('example_data.json', function (err, data) {
         idx.addDoc(question);
     });
 
-    fs.writeFile('example_index.json', JSON.stringify(idx), function (err) {
+
+    var k=idx.search("Oracle,released,its,latest,database,Oracle", {
+        fields: {
+            title: {boost: 2},
+            body: {boost: 1}
+        }
+    });
+
+    console.log(k);
+    /*fs.writeFile('example_index.json', JSON.stringify(idx), function (err) {
         if (err) throw err;
         console.log('done');
-    });
+    });*/
 });

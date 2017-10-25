@@ -1,11 +1,11 @@
 var fs = require('fs');
-var filer = require("./codeBlockProcessor/fileContentReader");
-var parser = require("./codeBlockProcessor/methodLevelExtractor");
-var type3Tokenizer = require('./tokenProcessor/type3Tokenizer');
-var detector = require("./similarityCalculator/cloneDetectoOverlapSimilarityr");
+var filer = require("./../codeBlockProcessor/fileContentReader");
+var parser = require("./../codeBlockProcessor/methodLevelExtractor");
+var type3Tokenizer = require('./../tokenProcessor/type3Tokenizer');
+var detector = require("./../similarityCalculator/cloneDetectoOverlapSimilarityr");
 
 var inputDirectoryPath = 'D:\\Masters\\MastersLab\\MastersNodeJSWork\\JSCMiner\\test-dataset\\scraperjs-src';
-var outputClonePath = 'D:\\Clone-type-3.txt';
+var outputClonePath = 'D:\\GTP.txt';
 
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);
 
@@ -28,6 +28,7 @@ methodList.forEach(function (method) {
     method.setTokenFrequencyMap(tokenFrequencyMap);
 });
 
+
 var globalMap = new Map();
 methodList.forEach(function (method) {
 
@@ -45,15 +46,33 @@ methodList.forEach(function (method) {
 
 });
 var globalSortedMap = getSortedMapByFollowingAssendingKeyOrder(globalMap);
-console.log(globalSortedMap);
+var GTPJSON =mapToJSON(globalSortedMap);
+//console.log(globalSortedMap);
+fs.appendFileSync(outputClonePath,JSON.stringify(GTPJSON));
 
-methodList.forEach(function (method, index) {
-    var tokenMap=method.tokenFrequencyMap;
-    var sotedMapAccordingtoGlobal=sortMapByFollowingGlobalFrequencyOrder(tokenMap,globalSortedMap);
-    console.log("-------------------------------")
-    console.log(sotedMapAccordingtoGlobal);
+function mapToJSON(map) {
+    "use strict";
+    var object = [];
+    map.forEach(function (value, key, thismap) {
+        object.push([key,value]);
+    });
 
-});
+    return object;
+}
+
+
+
+
+
+/*
+ methodList.forEach(function (method, index) {
+ var tokenMap=method.tokenFrequencyMap;
+ var sotedMapAccordingtoGlobal=sortMapByFollowingGlobalFrequencyOrder(tokenMap,globalSortedMap);
+ console.log("-------------------------------")
+ console.log(sotedMapAccordingtoGlobal);
+
+ });
+ */
 
 
 function getSortedMapByFollowingAssendingKeyOrder(mapToBeSorted) {
