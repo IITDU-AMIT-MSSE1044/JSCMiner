@@ -4,7 +4,7 @@ var parser = require("./../codeBlockProcessor/methodLevelExtractor");
 var type3Tokenizer = require('./../tokenProcessor/type3Tokenizer');
 var detector = require("./../similarityCalculator/cloneDetectoOverlapSimilarityr");
 
-var inputDirectoryPath = 'D:\\Masters\\MastersLab\\MastersNodeJSWork\\JSCMiner\\test-dataset\\scraperjs-src';
+var inputDirectoryPath = 'E:\\All Store\\js_dataset\\1.5K';
 var outputClonePath = 'D:\\Clone-type-3.txt';
 
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);
@@ -34,6 +34,7 @@ console.log(end);
 console.log("Tokenizeing time");
 console.log((end.getTime() - start.getTime()) / 1000);
 
+console.log("---------total methods---"+methodList.length);
 
 var startDetecting = new Date();
 var threashold =0.80;
@@ -52,11 +53,12 @@ methodList.forEach(function (method) {
         }
     });
 });
+
 var endDetecting = new Date();
 console.log("Detection Done");
 console.log((endDetecting.getTime() - startDetecting.getTime()) / 1000);
 console.log(clonePair.length);
-clonePair.forEach(function (pair) {
+/*clonePair.forEach(function (pair) {
 
     var clone = pair.first.methodID + '\n' + pair.second.methodID + '\n' +
         pair.first.fileName + "," + pair.first.startLine + "," + pair.first.endLine + '\n' +
@@ -64,7 +66,7 @@ clonePair.forEach(function (pair) {
         pair.first.methodCode + '\n' + pair.second.methodCode
         + '\n' + "----------------------------------------------------------------------" + '\n';
     fs.appendFileSync(outputClonePath, clone);
-});
+});*/
 
 
 var debug = 0;

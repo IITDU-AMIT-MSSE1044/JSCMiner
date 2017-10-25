@@ -12,7 +12,7 @@ function extractJSFile(File) {
     try {
         ast = esprima.parse(jsRawCode, {loc: true, tokens: true});
     } catch (error) {
-        console.log(File.getFilePath());
+       // console.log(File.getFilePath());
         return methodSet;
     }
     estraverse.traverse(ast, {

@@ -4,7 +4,7 @@ var parser = require("./../codeBlockProcessor/methodLevelExtractor");
 var type3Tokenizer = require('./../tokenProcessor/type3Tokenizer');
 var detector = require("./../similarityCalculator/cloneDetectoOverlapSimilarityr");
 
-var inputDirectoryPath = 'D:\\Masters\\MastersLab\\MastersNodeJSWork\\JSCMiner\\test-dataset\\scraperjs-src';
+var inputDirectoryPath = 'E:\\All Store\\js_dataset\\1.5K';
 var outputClonePath = 'D:\\GTP.txt';
 
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);
