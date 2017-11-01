@@ -4,7 +4,7 @@ var parser = require("./../codeBlockProcessor/methodLevelExtractor");
 var type3Tokenizer = require('./../tokenProcessor/type3Tokenizer');
 var detector = require("./../similarityCalculator/cloneDetectoOverlapSimilarityr");
 
-var inputDirectoryPath = 'E:\\All Store\\js_dataset\\1.5K';
+var inputDirectoryPath = 'D:\\My Research On Performance Testing\\MyImplementationOfAbrush';
 var outputClonePath = 'D:\\GTP.txt';
 
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);
@@ -29,26 +29,12 @@ methodList.forEach(function (method) {
 });
 
 
-var globalMap = new Map();
-methodList.forEach(function (method) {
 
-    var localMap = method.tokenFrequencyMap;
-    localMap.forEach(function (maxTermFrequency, maxKeyTerm, thismap) {
-
-        var frequency = globalMap.get(maxKeyTerm);
-        if (frequency) {
-            maxTermFrequency += frequency;
-
-        }
-        globalMap.set(maxKeyTerm, maxTermFrequency);
-
-    });
-
-});
-var globalSortedMap = getSortedMapByFollowingAssendingKeyOrder(globalMap);
-var GTPJSON =mapToJSON(globalSortedMap);
-//console.log(globalSortedMap);
-fs.appendFileSync(outputClonePath,JSON.stringify(GTPJSON));
+var globalMap=createGlobalMap(methodList);
+var globalSortedMap = getSortedMapByFollowingAscendingKeyOrder(globalMap);
+//var GTPJSON =mapToJSON(globalSortedMap);
+console.log(globalSortedMap);
+//fs.appendFileSync(outputClonePath,JSON.stringify(GTPJSON));
 
 function mapToJSON(map) {
     "use strict";
@@ -75,7 +61,30 @@ function mapToJSON(map) {
  */
 
 
-function getSortedMapByFollowingAssendingKeyOrder(mapToBeSorted) {
+function createGlobalMap(methodList)
+{
+    "use strict";
+    var globalMap = new Map();
+    methodList.forEach(function (method) {
+
+        var localMap = method.tokenFrequencyMap;
+        localMap.forEach(function (maxTermFrequency, maxKeyTerm, thismap) {
+
+            var frequency = globalMap.get(maxKeyTerm);
+            if (frequency) {
+                maxTermFrequency += frequency;
+
+            }
+            globalMap.set(maxKeyTerm, maxTermFrequency);
+
+        });
+
+    });
+    return globalMap;
+}
+
+
+function getSortedMapByFollowingAscendingKeyOrder(mapToBeSorted) {
     "use strict";
     var sortableMapArray = [];
     mapToBeSorted.forEach(function (value, key, mapObj) {
@@ -112,38 +121,4 @@ function sortMapByFollowingGlobalFrequencyOrder(mapTobeSorted, globalMap) {
     return localMapWithLocalKeyAfterSortingFollowingGlobalFrequencyOrder;
 }
 
-/*//console.log(globalMap);
- var sotableMapArray=[];
- globalMap.forEach(function (value, key, mapObj) {
- sotableMapArray.push([key,value]);
- });
- sotableMapArray.sort(function(a, b) {
- return a[1] - b[1];
- });
- var sortedMap=new Map();
 
- sotableMapArray.forEach(function(element)
- {
- sortedMap.set(element[0],element[1]);
- });
- console.log(sortedMap);*/
-
-
-/*
- methodList.forEach(function(method){
-
- var lm=new Map();
- var localMap=method.tokenFrequencyMap;
- localMap.forEach(function(maxTermFrequency, maxKeyTerm, thismap){
-
- var frequency=sortedMap.get(maxKeyTerm);
- if(frequency)
- {
- lm.set(maxKeyTerm,frequency);
- //sorted map according to global order
- }
-
-
- });
- }
- );*/
