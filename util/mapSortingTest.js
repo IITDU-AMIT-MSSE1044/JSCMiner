@@ -4,9 +4,9 @@ map.set("misu1",5);
 map.set("misu2",3);
 map.set("misu3",1);
 map.set("misu4",2);
-console.log(map);
+console.log("---"+map.size);
 var sortable = [];
-console.log(map.get("misu1"));
+//console.log(map.get("misu1"));
 
 
 

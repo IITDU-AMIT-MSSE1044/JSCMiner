@@ -5,6 +5,9 @@
 module.exports.createGlobalMap = createGlobalMap;
 module.exports.getSortedMapByFollowingAscendingKeyOrder = getSortedMapByFollowingAscendingKeyOrder;
 module.exports.sortMapByFollowingGlobalFrequencyOrder = sortMapByFollowingGlobalFrequencyOrder;
+module.exports.mapToJSON=mapToJSON;
+
+
 
 function createGlobalMap(methodList) {
     "use strict";
@@ -63,4 +66,14 @@ function sortMapByFollowingGlobalFrequencyOrder(mapTobeSorted, globalMap) {
     });
 
     return localMapWithLocalKeyAfterSortingFollowingGlobalFrequencyOrder;
+}
+
+function mapToJSON(map) {
+    "use strict";
+    var object = [];
+    map.forEach(function (value, key, thismap) {
+        object.push([key,value]);
+    });
+
+    return object;
 }

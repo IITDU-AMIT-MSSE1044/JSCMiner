@@ -1,22 +1,26 @@
 module.exports.createToken = createToken;
-module.exports.getTokenList=getTokenList;
-module.exports.getTokenFrquency=getTokenFrquency;
-
+module.exports.getTokenList = getTokenList;
+module.exports.getTokenFrequency = getTokenFrequency;
 
 
 function createToken(tokenMap) {
-    var token = "";
+    var token = "{";
     tokenMap.forEach(function (value, key, map) {
-        token += key + "@@::@@" + value + ",";
+        token += "(" + key + "," + value + ")" + ",";
     });
-    return token.slice(0, token.length - 9);
+    token = token.slice(0, token.length - 1);
+    token += "}";
+    return token;
 
 }
-function getTokenFrquency(tokenList) {
+function getTokenFrequency(tokenList) {
     var map = new Map();
     tokenList.forEach(function (element) {
         var occurrences = getFrequency(tokenList, element);
-        map.set(element, occurrences);
+        if (element != "") {
+            map.set(element, occurrences);
+        }
+
     });
 
     return map;

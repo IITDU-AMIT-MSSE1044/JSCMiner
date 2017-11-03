@@ -1,22 +1,13 @@
 /**
  * Created by Misu Be Imp on 8/14/2017.
  */
-module.exports.Method=Method;
+module.exports.Method = Method;
 
 //method Model with
 function Method(fileID, fileName, filePath) {
     this.fileID = fileID;
     this.fileName = fileName;
     this.filePath = filePath;
-    this.methodID = 0;;
-    this.methodLength=0;
-
-    this.methodCode=null;
-    this.tokenFrequencyMap=null;
-    this.tokenArray=null;
-    this.tokenParametricArray=null;
-    this.tokenStirngInLine=null;
-    this.tokenHashValue=null;
 
     this.setMethodID = function (methodID) {
         this.methodID = methodID;
@@ -40,19 +31,15 @@ function Method(fileID, fileName, filePath) {
     this.setTokenFrequencyMap = function (tokenFrequencyMap) {
         this.tokenFrequencyMap = tokenFrequencyMap;
     };
-
-    this.setTokenArray=function (tokenArray) {
-        this.tokenArray = tokenArray;
-    };
-
-    this.setTokenStringInLine=function (tokenStringInLine) {
-        this.tokenStringInLine = tokenStringInLine;
-    };
-    this.setTokenHashValue=function (tokenHashValue) {
+    this.setTokenHashValue = function (tokenHashValue) {
         this.tokenHashValue = tokenHashValue;
     };
-    this.setTokenParametricArray=function (tokenParametricArray) {
+    this.setTokenParametricArray = function (tokenParametricArray) {
         this.tokenParametricArray = tokenParametricArray;
+    };
+
+    this.setTokenString = function (tokenString ) {
+        this.tokenString  = tokenString ;
     };
 
 }
