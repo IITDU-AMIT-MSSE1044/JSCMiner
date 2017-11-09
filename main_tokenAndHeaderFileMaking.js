@@ -5,9 +5,14 @@ var type3Tokenizer = require('./tokenProcessor/type3Tokenizer');
 var tokenizer=require('./tokenProcessor/tokenizer');
 
 var gtpBuilder=require('./GTP/GTPComputing');
-var inputDirectoryPath = 'D:\\My Research On Performance Testing\\MyImplementationOfAbrush';
+var inputDirectoryPath = 'E:\\All Store\\js_dataset\\1.5K';
 var outputClonePath = 'D:\\';
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);
+
+
+
+
+
 
 var methodList = new Array();
 list.forEach(function (element) {
@@ -44,13 +49,16 @@ methodList.forEach(function (method) {
 var tokenString="";
 var headerFiles="";
 methodList.forEach(function (method) {
-    console.log(type3Tokenizer.getTokenIndexPortion(method.tokenFrequencyMap,0.80));
+    var indexString=type3Tokenizer.getTokenIndexPortion(method.tokenFrequencyMap,0.80);
+    method.setIndexString(indexString);
     tokenString+=method.methodID+"##"+method.tokenString+'\n';
     headerFiles+=method.methodID+","+method.filePath+','+method.startLine+","+method.endLine+'\n';
 });
 
 fs.appendFileSync(outputClonePath+"tokens.file", tokenString);
 fs.appendFileSync(outputClonePath+"header.file", headerFiles);
+
+
 
 
 

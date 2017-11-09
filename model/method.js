@@ -41,5 +41,8 @@ function Method(fileID, fileName, filePath) {
     this.setTokenString = function (tokenString ) {
         this.tokenString  = tokenString ;
     };
+    this.setIndexString = function (indexString ) {
+        this.indexString  = indexString ;
+    };
 
 }
