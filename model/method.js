@@ -27,7 +27,6 @@ function Method(fileID, fileName, filePath) {
     this.setMethodLength = function (methodLength) {
         this.methodLength = methodLength;
     };
-
     this.setTokenFrequencyMap = function (tokenFrequencyMap) {
         this.tokenFrequencyMap = tokenFrequencyMap;
     };
@@ -37,12 +36,14 @@ function Method(fileID, fileName, filePath) {
     this.setTokenParametricArray = function (tokenParametricArray) {
         this.tokenParametricArray = tokenParametricArray;
     };
-
     this.setTokenString = function (tokenString ) {
         this.tokenString  = tokenString ;
     };
     this.setIndexString = function (indexString ) {
         this.indexString  = indexString ;
+    };
+    this.setNumberOfToken=function (numberOfToken ) {
+        this.numberOfToken  = numberOfToken ;
     };
 
 }

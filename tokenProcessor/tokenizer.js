@@ -1,7 +1,7 @@
 module.exports.createToken = createToken;
 module.exports.getTokenList = getTokenList;
 module.exports.getTokenFrequency = getTokenFrequency;
-
+module.exports.createTokenAsSourcererCC=createTokenAsSourcererCC;
 
 function createToken(tokenMap) {
     var token = "{";
@@ -13,6 +13,17 @@ function createToken(tokenMap) {
     return token;
 
 }
+
+function createTokenAsSourcererCC(tokenMap) {
+    var token = "";
+    tokenMap.forEach(function (value, key, map) {
+        token += key + "@@::@@" + value + ",";
+    });
+    return token.slice(0, token.length - 1);
+
+}
+
+
 function getTokenFrequency(tokenList) {
     var map = new Map();
     tokenList.forEach(function (element) {

@@ -7,8 +7,8 @@ var type3Tokenizer = require('./tokenProcessor/type3Tokenizer');
 
 var detector = require("./similarityCalculator/cloneDetectoOverlapSimilarityr");
 
-var inputDirectoryPath = 'D:\\My Research On Performance Testing\\MyImplementationOfAbrush';
-var outputClonePath = 'D:\\AllClones.txt';
+var inputDirectoryPath = '/media/misu/MS/Masters/MastersLab/MastersNodeJSWork/JSCMiner/test-dataset/scraperjs-src';
+var outputClonePath = '/home/misu/Desktop/all_compare_clone.txt';
 
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);
 
@@ -43,7 +43,7 @@ console.log((end.getTime() - start.getTime()) / 1000);
 
 
 var startDetecting = new Date();
-var threashold = 0.80;
+var threashold =0.80;
 var clonePair = new Array();
 
 methodList.forEach(function (method) {
@@ -52,14 +52,17 @@ methodList.forEach(function (method) {
             if ((method != undefined) && (candidate != undefined)) {
                 var isClone = detector.detectClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, threashold);
                 if (isClone) {
-                    var type = "Type-3";
-                    if (isPerametricArraysEqual(method.tokenParametricArray, candidate.tokenParametricArray)) {
-                        type = "Type-2";
+                   var type = "Type-3";
+                    clonePair.push({'first': method, 'second': candidate, 'type': type});
+                    /*if (isPerametricArraysEqual(method.tokenParametricArray, candidate.tokenParametricArray)) {
+                        var type = "Type-2";
+                        clonePair.push({'first': method, 'second': candidate, 'type': type});
                     }
                     if (method.tokenHashValue === candidate.tokenHashValue) {
-                        type = "Type-1";
-                    }
-                    clonePair.push({'first': method, 'second': candidate, 'type': type});
+                       var type = "Type-1";
+                        clonePair.push({'first': method, 'second': candidate, 'type': type});
+                    }*/
+
                 }
             }
 
@@ -85,16 +88,14 @@ function isPerametricArraysEqual(a, b) {
 var endDetecting = new Date();
 console.log("Detection Done");
 console.log((endDetecting.getTime() - startDetecting.getTime()) / 1000);
-console.log(clonePair.length);
+console.log("number of clone detected:--"+clonePair.length);
+var clone="Detection Done in--"+((endDetecting.getTime() - startDetecting.getTime()) / 1000)+'\n'+"total number of clone="+clonePair.length+'\n';
 clonePair.forEach(function (pair) {
-
-    var clone = pair.first.methodID + '\n' + pair.second.methodID +'\n'+ pair.type+'\n' +
+    clone+= pair.first.methodID +","+ pair.second.methodID +'\n';/*+ pair.type+'\n' +
         pair.first.fileName + "," + pair.first.startLine + "," + pair.first.endLine + '\n' +
         pair.second.fileName + "," + pair.second.startLine + "," + pair.second.endLine + '\n' +
         pair.first.methodCode + '\n' + pair.second.methodCode
-        + '\n' + "----------------------------------------------------------------------" + '\n';
-    fs.appendFileSync(outputClonePath, clone);
+        + '\n' + "----------------------------------------------------------------------" + '\n';*/
 });
+fs.appendFileSync(outputClonePath, clone);
 
-
-var debug = 0;

@@ -5,12 +5,9 @@ var type3Tokenizer = require('./tokenProcessor/type3Tokenizer');
 var tokenizer=require('./tokenProcessor/tokenizer');
 
 var gtpBuilder=require('./GTP/GTPComputing');
-var inputDirectoryPath = 'E:\\All Store\\js_dataset\\1.5K';
-var outputClonePath = 'D:\\';
+var inputDirectoryPath = '/media/misu/MS/Masters/MastersLab/MastersNodeJSWork/JSCMiner/test-dataset/scraperjs-src';
+var outputClonePath = '/home/misu/Desktop/';
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);
-
-
-
 
 
 
@@ -42,7 +39,7 @@ fs.appendFileSync(outputClonePath+"GTP.json",JSON.stringify(GTPJSON));
 methodList.forEach(function (method) {
     var tokenFrequencyMap = gtpBuilder.sortMapByFollowingGlobalFrequencyOrder(method.tokenFrequencyMap,globalSortedMap);
     method.setTokenFrequencyMap(tokenFrequencyMap);
-    method.setTokenString(tokenizer.createToken(tokenFrequencyMap));
+    method.setTokenString(tokenizer.createTokenAsSourcererCC(tokenFrequencyMap));
 });
 
 
@@ -51,19 +48,13 @@ var headerFiles="";
 methodList.forEach(function (method) {
     var indexString=type3Tokenizer.getTokenIndexPortion(method.tokenFrequencyMap,0.80);
     method.setIndexString(indexString);
-    tokenString+=method.methodID+"##"+method.tokenString+'\n';
+    tokenString+=method.methodID+","+method.methodID+"@#@"+method.tokenString+'\n';
     headerFiles+=method.methodID+","+method.filePath+','+method.startLine+","+method.endLine+'\n';
 });
 
 fs.appendFileSync(outputClonePath+"tokens.file", tokenString);
 fs.appendFileSync(outputClonePath+"header.file", headerFiles);
 
-
-
-
-
-
-var k=0;
 
 
 

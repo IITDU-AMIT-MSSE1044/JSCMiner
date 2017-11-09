@@ -5,20 +5,20 @@ var estraverse = require('estraverse');
 var escodegen = require('escodegen');
 var model = require('./../model/method');
 
-function extractJSFile(File) {
+function extractJSFile(file) {
     var methodSet = new Array();
     var ast;
-    var jsRawCode = File.getContent();
+    var jsRawCode = file.getContent();
     try {
         ast = esprima.parse(jsRawCode, {loc: true, tokens: true});
     } catch (error) {
-       // console.log(File.getFilePath());
+       // console.log(file.getFilePath());
         return methodSet;
     }
     estraverse.traverse(ast, {
         enter: function (node, parent) {
             if (node.type == 'FunctionExpression' || node.type == 'FunctionDeclaration') {
-                var method = getExtractedFunction(node, File);
+                var method = getExtractedFunction(node, file);
                 if (method != null) {
                     methodSet.push(method);
                 }
@@ -30,8 +30,8 @@ function extractJSFile(File) {
     return methodSet;
 }
 
-function getExtractedFunction(node, File) {
-    var method = new model.Method(File.fileID, File.fileName, File.filePath);
+function getExtractedFunction(node, file) {
+    var method = new model.Method(file.fileID, file.fileName, file.filePath);
     var methodName = node.id ? node.id.name : "anonymous_functions";
     var startLine = node.loc.start.line;
     var endLine = node.loc.end.line;

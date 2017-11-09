@@ -15,13 +15,13 @@ function getAllJsFilesWithContent(basePathOfTheApplication) {
 function findJSFiles(dir) {
     var results = [];
     var list = filesystem.readdirSync(dir)
-    list.forEach(function (file) {
+    list.forEach(function (file,index) {
         file = dir + '/' + file;
         var stat = filesystem.statSync(file);
         if (stat && stat.isDirectory()) results = results.concat(findJSFiles(file))
         else if (path.extname(file) === ".js") {
             var name = path.basename(file);
-            results.push(new model.SourceFile(util.getUUID(), name, file));
+            results.push(new model.SourceFile(index, name, file));
         }
     });
     return results;
