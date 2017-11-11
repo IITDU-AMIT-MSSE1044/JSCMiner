@@ -2,49 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d85289-5120-4e08-aa44-5a22154ca271" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/JSCMiner.iml" afterPath="$PROJECT_DIR$/.idea/JSCMiner.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/.eslintrc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/CNAME" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/VERSION" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/benchmark_results" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/bug.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/build/bower.json.template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/build/component.json.template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/build/jsdoc.conf.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/build/package.json.template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/build/release.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/build/wrapper_end" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/build/wrapper_start" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/builder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/field_ref.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/frame.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/idf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/lunr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/match_data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/pipeline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/query.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/query_lexer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/query_parse_error.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/query_parser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/stemmer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/stop_word_filter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/token.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/token_set.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/token_set_builder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/tokenizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/trimmer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/unicode_tokenizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/vector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lib/word_break_sets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/lunr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/notes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/oliver-perf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/perf/builder_perf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/perf/perf_helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/perf/query_parser_perf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/perf/search_perf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/perf/stemmer_perf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/perf/token_set_perf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/perf/tokenizer_perf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/perf/vector_perf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/query-perf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/builder_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/env/chai.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/env/file_list.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/env/index.mustache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/env/mocha.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/env/mocha.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/field_ref_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/fixtures/stemming_vocab.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/match_data_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/pipeline_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/query_lexer_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/query_parser_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/query_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/search_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/serialization_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/stemmer_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/stop_word_filter_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/test_helper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/token_set_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/token_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/tokenizer_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/trimmer_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/lunr/test/vector_test.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GTP/GTPComputing.js" afterPath="$PROJECT_DIR$/GTP/GTPComputing.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GTP/GTPTest.js" afterPath="$PROJECT_DIR$/GTP/GTPTest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Node.gitignore" afterPath="$PROJECT_DIR$/Node.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloneDetector/contentLoader.js" afterPath="$PROJECT_DIR$/cloneDetector/contentLoader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloneDetector/type-1-detector.js" afterPath="$PROJECT_DIR$/cloneDetector/type-1-detector.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloneDetector/type-2-detector.js" afterPath="$PROJECT_DIR$/cloneDetector/type-2-detector.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloneDetector/type-3-detector.js" afterPath="$PROJECT_DIR$/cloneDetector/type-3-detector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeBlockProcessor/blockLevelExtractor.js" afterPath="$PROJECT_DIR$/codeBlockProcessor/blockLevelExtractor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeBlockProcessor/fileContentReader.js" afterPath="$PROJECT_DIR$/codeBlockProcessor/fileContentReader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeBlockProcessor/fileLevelExtractor.js" afterPath="$PROJECT_DIR$/codeBlockProcessor/fileLevelExtractor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codeBlockProcessor/methodLevelExtractor.js" afterPath="$PROJECT_DIR$/codeBlockProcessor/methodLevelExtractor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indexing/example_data.json" afterPath="$PROJECT_DIR$/indexing/example_data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indexing/search.js" afterPath="$PROJECT_DIR$/indexing/search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indexing/testIndex.js" afterPath="$PROJECT_DIR$/indexing/testIndex.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/indexingAndSearching.js" afterPath="$PROJECT_DIR$/indexingAndSearching.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_tokenAndHeaderFileMaking.js" afterPath="$PROJECT_DIR$/main_tokenAndHeaderFileMaking.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/method.js" afterPath="$PROJECT_DIR$/model/method.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/sourceFile.js" afterPath="$PROJECT_DIR$/model/sourceFile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/escodegen.cmd" afterPath="$PROJECT_DIR$/node_modules/.bin/escodegen.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/esgenerate.cmd" afterPath="$PROJECT_DIR$/node_modules/.bin/esgenerate.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/esparse.cmd" afterPath="$PROJECT_DIR$/node_modules/.bin/esparse.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate.cmd" afterPath="$PROJECT_DIR$/node_modules/.bin/esvalidate.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/.bin/esparse.cmd" afterPath="$PROJECT_DIR$/node_modules/escodegen/node_modules/.bin/esparse.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/.bin/esvalidate.cmd" afterPath="$PROJECT_DIR$/node_modules/escodegen/node_modules/.bin/esvalidate.cmd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/esprima/dist/esprima.js" afterPath="$PROJECT_DIR$/node_modules/esprima/dist/esprima.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raf.txt" afterPath="$PROJECT_DIR$/raf.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/similarityCalculator/cloneDetectoOverlapSimilarityr.js" afterPath="$PROJECT_DIR$/similarityCalculator/cloneDetectoOverlapSimilarityr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/similarityCalculator/cloneDetectorCosineSimilarity.js" afterPath="$PROJECT_DIR$/similarityCalculator/cloneDetectorCosineSimilarity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/similarityCalculator/cloneDetectorHashingSiilarity.js" afterPath="$PROJECT_DIR$/similarityCalculator/cloneDetectorHashingSiilarity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/similarityCalculator/cloneDetectorJaccardSimilarity.js" afterPath="$PROJECT_DIR$/similarityCalculator/cloneDetectorJaccardSimilarity.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/similarityCalculator/test.js" afterPath="$PROJECT_DIR$/similarityCalculator/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tokenProcessor/hasingTokenizer.js" afterPath="$PROJECT_DIR$/tokenProcessor/hasingTokenizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tokenProcessor/tokenizer.js" afterPath="$PROJECT_DIR$/tokenProcessor/tokenizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tokenProcessor/type1Tokenizer.js" afterPath="$PROJECT_DIR$/tokenProcessor/type1Tokenizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tokenProcessor/type2Tokenizer.js" afterPath="$PROJECT_DIR$/tokenProcessor/type2Tokenizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tokenProcessor/type3Tokenizer.js" afterPath="$PROJECT_DIR$/tokenProcessor/type3Tokenizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/mapSortingTest.js" afterPath="$PROJECT_DIR$/util/mapSortingTest.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tokenProcessor/type1Tokenizer.js" afterPath="$PROJECT_DIR$/tokenProcessor/type-1-Tokenizer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tokenProcessor/type2Tokenizer.js" afterPath="$PROJECT_DIR$/tokenProcessor/type-2-Tokenizer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tokenProcessor/type3Tokenizer.js" afterPath="$PROJECT_DIR$/tokenProcessor/type-3-Tokenizer.js" />
     </list>
     <ignored path="JSCMiner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +109,12 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="JSCMiner" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,7 +141,6 @@
         <option value="$PROJECT_DIR$/cloneDetector/contentLoader.js" />
         <option value="$PROJECT_DIR$/cloneDetector/type-3-detector.js" />
         <option value="$PROJECT_DIR$/GTP/GTPTest.js" />
-        <option value="$PROJECT_DIR$/GTP/GTPComputing.js" />
         <option value="$PROJECT_DIR$/util/mapSortingTest.js" />
         <option value="$PROJECT_DIR$/tokenProcessor/type3Tokenizer.js" />
         <option value="$PROJECT_DIR$/main_indexing_test.js" />
@@ -102,6 +153,9 @@
         <option value="$PROJECT_DIR$/codeBlockProcessor/fileContentReader.js" />
         <option value="$PROJECT_DIR$/model/sourceFile.js" />
         <option value="$PROJECT_DIR$/codeBlockProcessor/methodLevelExtractor.js" />
+        <option value="$PROJECT_DIR$/GTP/GTPComputing.js" />
+        <option value="$PROJECT_DIR$/tokenProcessor/type-2-Tokenizer.js" />
+        <option value="$PROJECT_DIR$/tokenProcessor/type-1-Tokenizer.js" />
       </list>
     </option>
   </component>
@@ -123,11 +177,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1299" />
-    <option name="height" value="736" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -147,19 +201,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="JSCMiner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSCMiner" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSCMiner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSCMiner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSCMiner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JSCMiner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,25 +268,20 @@
     </option>
   </component>
   <component name="RunManager" selected="Node.js.indexingAndSearching.js">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
+    <configuration default="false" name="main_indexing_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/main_tokenAndHeaderFileMaking.js" working-dir="$PROJECT_DIR$">
+      <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
+    <configuration default="false" name="type3Tokenizer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/tokenProcessor/type-3-Tokenizer.js" working-dir="$PROJECT_DIR$/tokenProcessor">
+      <method />
+    </configuration>
+    <configuration default="false" name="indexingAndSearching.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="indexingAndSearching.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="false" name="tokenizer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="tokenizer.js" working-dir="$PROJECT_DIR$/tokenProcessor">
+      <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -224,6 +290,12 @@
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
       <envs />
@@ -241,18 +313,35 @@
       <option name="filePath" />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
-    <configuration name="indexingAndSearching.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="indexingAndSearching.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="main_indexing_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/main_tokenAndHeaderFileMaking.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="main.js" working-dir="$PROJECT_DIR$" />
-    <configuration name="tokenizer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="tokenizer.js" working-dir="$PROJECT_DIR$/tokenProcessor" />
-    <configuration name="type3Tokenizer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="type3Tokenizer.js" working-dir="$PROJECT_DIR$/tokenProcessor" />
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.main_indexing_test.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.type3Tokenizer.js" />
@@ -304,16 +393,18 @@
       <workItem from="1510251171935" duration="1729000" />
       <workItem from="1510253008544" duration="1744000" />
       <workItem from="1510254779067" duration="1786000" />
+      <workItem from="1510360764503" duration="1834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72769000" />
+    <option name="totallyTimeSpent" value="74603000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1303" height="780" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24365872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -333,7 +424,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -365,7 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -373,7 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -417,28 +506,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/similarityCalculator/cloneDetectorCosineSimilarity.js" />
     <entry file="file://$PROJECT_DIR$/similarityCalculator/cloneDetectorJaccardSimilarity.js" />
-    <entry file="file://$PROJECT_DIR$/tokenProcessor/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/similarityCalculator/cloneDetectorHashingSiilarity.js" />
-    <entry file="file://$PROJECT_DIR$/tokenProcessor/type1Tokenizer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tokenProcessor/type2Tokenizer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-dataset/scraperjs-src/Router.js" />
     <entry file="file://$PROJECT_DIR$/test-dataset/scraperjs-src/AbstractScraper.js" />
     <entry file="file://$PROJECT_DIR$/similarityCalculator/cloneDetectoOverlapSimilarityr.js" />
@@ -480,7 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloneDetector/contentLoader.js" />
     <entry file="file://$PROJECT_DIR$/util/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -490,7 +557,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/indexing/example_data.json" />
     <entry file="file://$PROJECT_DIR$/cloneDetector/type-3-detector.js" />
-    <entry file="file://$PROJECT_DIR$/GTP/GTPComputing.js" />
     <entry file="file://$PROJECT_DIR$/GTP/GTPTest.js" />
     <entry file="file://$PROJECT_DIR$/util/mapSortingTest.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -499,7 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tokenProcessor/type3Tokenizer.js">
+    <entry file="file://$PROJECT_DIR$/tokenProcessor/type-3-Tokenizer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
@@ -511,13 +577,6 @@
     <entry file="file://$PROJECT_DIR$/node_modules/lunr/index.html" />
     <entry file="file://$PROJECT_DIR$/node_modules/lunr/README.md" />
     <entry file="file://$PROJECT_DIR$/indexing/testIndex.js" />
-    <entry file="file://$PROJECT_DIR$/tokenProcessor/tokenizer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="1" lean-forward="false" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_tokenAndHeaderFileMaking.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-529">
@@ -526,10 +585,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indexingAndSearching.js">
+    <entry file="file://$PROJECT_DIR$/codeBlockProcessor/fileContentReader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2484">
-          <caret line="138" column="4" lean-forward="false" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+        <state relative-caret-position="175">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeBlockProcessor/methodLevelExtractor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/method.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/sourceFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1063">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GTP/GTPComputing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -542,50 +637,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cloneDetector/contentLoader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tokenProcessor/tokenizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tokenProcessor/type-2-Tokenizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexingAndSearching.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="102" column="1" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="102" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tokenProcessor/hasingTokenizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tokenProcessor/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tokenProcessor/type-1-Tokenizer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeBlockProcessor/fileContentReader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeBlockProcessor/methodLevelExtractor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/method.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/sourceFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1063">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
           <folding />
         </state>
       </provider>

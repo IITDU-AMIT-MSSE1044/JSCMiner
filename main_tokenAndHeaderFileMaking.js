@@ -1,7 +1,7 @@
 var fs = require('fs');
 var filer = require("./codeBlockProcessor/fileContentReader");
 var parser = require("./codeBlockProcessor/methodLevelExtractor");
-var type3Tokenizer = require('./tokenProcessor/type3Tokenizer');
+var type3Tokenizer = require('./tokenProcessor/type-3-Tokenizer');
 var tokenizer=require('./tokenProcessor/tokenizer');
 
 var gtpBuilder=require('./GTP/GTPComputing');

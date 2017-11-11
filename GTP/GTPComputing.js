@@ -1,7 +1,3 @@
-/**
- * Created by Misu Be Imp on 11/2/2017.
- */
-
 module.exports.createGlobalMap = createGlobalMap;
 module.exports.getSortedMapByFollowingAscendingKeyOrder = getSortedMapByFollowingAscendingKeyOrder;
 module.exports.sortMapByFollowingGlobalFrequencyOrder = sortMapByFollowingGlobalFrequencyOrder;

@@ -1,7 +1,7 @@
 var fs = require('fs');
 var filer = require("./../codeBlockProcessor/fileContentReader");
 var parser = require("./../codeBlockProcessor/methodLevelExtractor");
-var type1Tokenizer = require('./../tokenProcessor/type1Tokenizer');
+var type1Tokenizer = require('./../tokenProcessor/type-1-Tokenizer');
 var detector = require("./../similarityCalculator/cloneDetectoOverlapSimilarityr");
 
 
