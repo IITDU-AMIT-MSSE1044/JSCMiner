@@ -1,9 +1,5 @@
-/**
- * Created by Misu Be Imp on 8/14/2017.
- */
 module.exports.Method = Method;
 
-//method Model with
 function Method(fileID, fileName, filePath) {
     this.fileID = fileID;
     this.fileName = fileName;
@@ -36,6 +32,11 @@ function Method(fileID, fileName, filePath) {
     this.setTokenParametricArray = function (tokenParametricArray) {
         this.tokenParametricArray = tokenParametricArray;
     };
+
+    this.setTokenHashValueParametricArray = function (tokenHashValueParametricArray) {
+        this.tokenHashValueParametricArray = tokenHashValueParametricArray;
+    };
+
     this.setTokenString = function (tokenString ) {
         this.tokenString  = tokenString ;
     };

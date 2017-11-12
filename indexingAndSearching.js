@@ -1,14 +1,14 @@
 var fs = require('fs');
-var filer = require("./codeBlockProcessor/fileContentReader");
-var parser = require("./codeBlockProcessor/methodLevelExtractor");
-var type1Tokenizer = require('./tokenProcessor/type-1-Tokenizer');
-var type2Tokenizer = require('./tokenProcessor/type-2-Tokenizer');
-var type3Tokenizer = require('./tokenProcessor/type-3-Tokenizer');
-var tokenizer = require('./tokenProcessor/tokenizer');
-var detector = require("./similarityCalculator/cloneDetectoOverlapSimilarityr");
+var filer = require("./code-block-processor/file-content-reader");
+var parser = require("./code-block-processor/function-level-extractor");
+var type1Tokenizer = require('./token-processor/type-1-tokenizer');
+var type2Tokenizer = require('./token-processor/type-2-tokenizer');
+var type3Tokenizer = require('./token-processor/type-3-tokenizer');
+var tokenizer = require('./token-processor/tokenizer');
+var detector = require("./similarity-calculator/overlap-similarity-calculator");
 
 
-var gtpBuilder = require('./GTP/GTPComputing');
+var gtpBuilder = require('./gtp-calulator/gtp-calculator');
 var inputDirectoryPath = '/media/misu/MS/Masters/MastersLab/MastersNodeJSWork/JSCMiner/test-dataset/scraperjs-src';
 var outputClonePath = '/home/misu/Desktop/index_compare_clone.txt';
 
@@ -44,7 +44,7 @@ methodList.forEach(function (method) {
 var globalMap = gtpBuilder.createGlobalMap(methodList);
 var globalSortedMap = gtpBuilder.getSortedMapByFollowingAscendingKeyOrder(globalMap);
 //var GTPJSON = gtpBuilder.mapToJSON(globalSortedMap);
-//fs.appendFileSync(outputClonePath + "GTP.json", JSON.stringify(GTPJSON));
+//fs.appendFileSync(outputClonePath + "gtp-calulator.json", JSON.stringify(GTPJSON));
 
 methodList.forEach(function (method) {
     var tokenFrequencyMap = gtpBuilder.sortMapByFollowingGlobalFrequencyOrder(method.tokenFrequencyMap, globalSortedMap);
@@ -112,7 +112,7 @@ methodList.forEach(function (method) {
     matchResult.forEach(function (reference) {
         var candidate = methodList[reference.ref];
         if (method.methodID < candidate.methodID) {
-            var isClone = detector.detectClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, threashold);
+            var isClone = detector.isProbableClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, threashold);
             if (isClone) {
                 var type = "Type-3";
                 clonePair.push({'first': method, 'second': candidate, 'type': type});

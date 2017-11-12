@@ -1,12 +1,12 @@
 var fs = require('fs');
-var filer = require("./codeBlockProcessor/fileContentReader");
-var parser = require("./codeBlockProcessor/methodLevelExtractor");
-var type3Tokenizer = require('./tokenProcessor/type-3-Tokenizer');
-var tokenizer=require('./tokenProcessor/tokenizer');
+var filer = require("./code-block-processor/file-content-reader");
+var parser = require("./code-block-processor/function-level-extractor");
+var type3Tokenizer = require('./token-processor/type-3-tokenizer');
+var tokenizer=require('./token-processor/tokenizer');
 
-var gtpBuilder=require('./GTP/GTPComputing');
-var inputDirectoryPath = '/media/misu/MS/Masters/MastersLab/MastersNodeJSWork/JSCMiner/test-dataset/scraperjs-src';
-var outputClonePath = '/home/misu/Desktop/';
+var gtpBuilder=require('./gtp-calulator/gtp-calculator');
+var inputDirectoryPath = 'D:/Masters/MastersLab/MastersNodeJSWork/JSCMiner/test-dataset/scraperjs-src';
+var outputClonePath = 'D:/in.txt';
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);
 
 
@@ -34,7 +34,7 @@ methodList.forEach(function (method) {
 var globalMap=gtpBuilder.createGlobalMap(methodList);
 var globalSortedMap=gtpBuilder.getSortedMapByFollowingAscendingKeyOrder(globalMap);
 var GTPJSON =gtpBuilder.mapToJSON(globalSortedMap);
-fs.appendFileSync(outputClonePath+"GTP.json",JSON.stringify(GTPJSON));
+fs.appendFileSync(outputClonePath+"gtp-calulator.json",JSON.stringify(GTPJSON));
 
 methodList.forEach(function (method) {
     var tokenFrequencyMap = gtpBuilder.sortMapByFollowingGlobalFrequencyOrder(method.tokenFrequencyMap,globalSortedMap);

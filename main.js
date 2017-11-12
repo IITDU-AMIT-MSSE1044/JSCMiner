@@ -1,14 +1,14 @@
 var fs = require('fs');
-var filer = require("./codeBlockProcessor/fileContentReader");
-var parser = require("./codeBlockProcessor/methodLevelExtractor");
-var type1Tokenizer = require('./tokenProcessor/type-1-Tokenizer');
-var type2Tokenizer = require('./tokenProcessor/type-2-Tokenizer');
-var type3Tokenizer = require('./tokenProcessor/type-3-Tokenizer');
+var filer = require("./code-block-processor/file-content-reader");
+var parser = require("./code-block-processor/function-level-extractor");
+var type1Tokenizer = require('./token-processor/type-1-tokenizer');
+var type2Tokenizer = require('./token-processor/type-2-tokenizer');
+var type3Tokenizer = require('./token-processor/type-3-tokenizer');
 
-var detector = require("./similarityCalculator/cloneDetectoOverlapSimilarityr");
+var detector = require("./similarity-calculator/overlap-similarity-calculator");
 
-var inputDirectoryPath = '/media/misu/MS/Masters/MastersLab/MastersNodeJSWork/JSCMiner/test-dataset/scraperjs-src';
-var outputClonePath = '/home/misu/Desktop/all_compare_clone.txt';
+var inputDirectoryPath = 'D:/Masters/MastersLab/MastersNodeJSWork/JSCMiner/test-dataset/scraperjs-src';
+var outputClonePath = 'D:/all_compare_clone.txt';
 
 var list = filer.getAllJsFilesWithContent(inputDirectoryPath);
 
@@ -50,18 +50,18 @@ methodList.forEach(function (method) {
     methodList.forEach(function (candidate) {
         if (method.methodID < candidate.methodID) {
             if ((method != undefined) && (candidate != undefined)) {
-                var isClone = detector.detectClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, threashold);
+                var isClone = detector.isProbableClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, threashold);
                 if (isClone) {
                    var type = "Type-3";
-                    clonePair.push({'first': method, 'second': candidate, 'type': type});
+                    //clonePair.push({'first': method, 'second': candidate, 'type': type});
                     /*if (isPerametricArraysEqual(method.tokenParametricArray, candidate.tokenParametricArray)) {
                         var type = "Type-2";
                         clonePair.push({'first': method, 'second': candidate, 'type': type});
-                    }
+                    }*/
                     if (method.tokenHashValue === candidate.tokenHashValue) {
                        var type = "Type-1";
                         clonePair.push({'first': method, 'second': candidate, 'type': type});
-                    }*/
+                    }
 
                 }
             }
