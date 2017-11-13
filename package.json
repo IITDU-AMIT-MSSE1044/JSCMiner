@@ -4,10 +4,17 @@
   "description": "JavaScript Code Clone Detector",
   "main": "main.js",
   "dependencies": {
-    "esprima": "^3.1.1",
-    "escodegen": "^1.8.1",
-    "estraverse": "^1.8.1",
-    "elasticlunr":"^0.9.5"
+    "chalk": "^2.3.0",
+    "clear": "0.0.1",
+    "colors": "^1.1.2",
+    "elasticlunr": "^0.9.5",
+    "escodegen": "^1.9.0",
+    "esprima": "^4.0.0",
+    "estraverse": "^4.2.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^4.0.0",
+    "minimist": "^1.2.0",
+    "progress": "^2.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +27,9 @@
     "url": "git+https://github.com/MisuBeImp/JSCMiner.git"
   },
   "keywords": [
-    "JSCMiner","JavaSript","JavaScript Code Clone Detector"
+    "JSCMiner",
+    "JavaSript",
+    "JavaScript Code Clone Detector"
   ],
   "author": "MisuBeImp",
   "license": "MIT",
@@ -28,7 +37,5 @@
     "url": "https://github.com/MisuBeImp/JSCMiner/issues"
   },
   "homepage": "https://github.com/MisuBeImp/JSCMiner/#readme",
-  "devDependencies": {
-
-  }
+  "devDependencies": {}
 }
