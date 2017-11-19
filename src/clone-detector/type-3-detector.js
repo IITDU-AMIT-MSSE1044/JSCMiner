@@ -21,7 +21,7 @@ function getClonePairsWithoutIndexMaking(configuration) {
         functionList.forEach(function (candidate) {
             if (method.methodID < candidate.methodID) {
                 if ((method != undefined) && (candidate != undefined)) {
-                    var isClone = similarityCalculator.isProbableClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, configuration.threshold);
+                    var isClone = similarityCalculator.isProbableClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, (configuration.threshold/100));
                     if (isClone) {
                         var type = "Type-3";
                         clonePairs.push(new model.ClonePair(method,candidate,type));
@@ -51,7 +51,7 @@ function getClonePairsWithIndexMaking(configuration)
     });
 
     functionList.forEach(function (method) {
-        var indexString = type3Tokenizer.getTokenIndexPortion(method.tokenFrequencyMap, configuration.threshold);
+        var indexString = type3Tokenizer.getTokenIndexPortion(method.tokenFrequencyMap, (configuration.threshold/100));
         method.setIndexString(indexString);
     });
 
