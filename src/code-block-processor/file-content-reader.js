@@ -3,7 +3,7 @@ module.exports.walk = findJSFiles;
 
 var filesystem = require('fs');
 var path = require('path');
-var model = require('./../model/source-file');
+var model = require('../model/source-file');
 
 function getAllJsFilesWithContent(basePathOfTheApplication) {
     var jsFileList = findJSFiles(basePathOfTheApplication);

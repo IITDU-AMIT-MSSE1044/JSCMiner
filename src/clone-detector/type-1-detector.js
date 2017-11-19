@@ -1,31 +1,36 @@
+module.exports.getClonePairsWithoutIndexMaking = getClonePairsWithoutIndexMaking;
+module.exports.getClonePairsWithIndexMaking = getClonePairsWithIndexMaking;
+
+
 var contentProvider = require('./content-provider');
 var elasticlunr = require('elasticlunr');
+var model = require('../model/clone-pair');
 
-function getClonePairsWithoutIndexMaking(inputDirectoryPath) {
+function getClonePairsWithoutIndexMaking(configuration) {
     "use strict";
-    var clonePair = new Array();
-    var functionList = contentProvider.getFunctionListForTypeOneDetectorByInputDirectoryPath(inputDirectoryPath);
+    var clonePairs = new Array();
+    var functionList = contentProvider.getFunctionListForTypeOneDetectorByInputDirectoryPath(configuration);
     functionList.forEach(function (method) {
         functionList.forEach(function (candidate) {
             if (method.methodID < candidate.methodID) {
                 if ((method != undefined) && (candidate != undefined)) {
                     if (method.tokenHashValue === candidate.tokenHashValue) {
                         var type = "Type-1";
-                        clonePair.push({'first': method, 'second': candidate, 'type': type});
+                        clonePairs.push(new model.ClonePair(method, candidate, type));
                     }
                 }
 
             }
         });
     });
-    return clonePair;
+    return clonePairs;
 }
 
 
-function getClonePairsWithIndexMaking(inputDirectoryPath) {
+function getClonePairsWithIndexMaking(configuration) {
     "use strict";
-    var clonePair = new Array();
-    var functionList = contentProvider.getFunctionListForTypeOneDetectorByInputDirectoryPath(inputDirectoryPath);
+    var clonePairs = new Array();
+    var functionList = contentProvider.getFunctionListForTypeOneDetectorByInputDirectoryPath(configuration);
     var indexer = elasticlunr(function () {
         this.setRef('id');
         this.addField('tokenHashValue');
@@ -46,12 +51,12 @@ function getClonePairsWithIndexMaking(inputDirectoryPath) {
             if ((method != undefined) && (candidate != undefined)) {
                 if (method.tokenHashValue === candidate.tokenHashValue) {
                     var type = "Type-1";
-                    clonePair.push({'first': method, 'second': candidate, 'type': type});
+                    clonePairs.push(new model.ClonePair(method, candidate, type));
                 }
             }
         });
     });
-    return clonePair;
+    return clonePairs;
 }
 
 

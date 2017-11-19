@@ -1,39 +1,46 @@
+module.exports.getClonePairsWithoutIndexMaking=getClonePairsWithoutIndexMaking;
+module.exports.getClonePairsWithIndexMaking=getClonePairsWithIndexMaking;
+
+
+
+
+
 var contentProvider = require('./content-provider');
-var similarityCalculator = require("./similarity-calculator/overlapSimilarity");
-var gtpBuilder = require('./gtp-calulator/GTPComputing');
-var tokenizer = require('./token-processor/tokenizer');
-var type3Tokenizer = require('./token-processor/type-3-tokenizer');
+var similarityCalculator = require("../similarity-calculator/overlap-similarity-calculator");
+var gtpBuilder = require('../gtp-calulator/gtp-calculator');
+var tokenizer = require('../token-processor/tokenizer');
+var type3Tokenizer = require('../token-processor/type-3-tokenizer');
 var elasticlunr = require('elasticlunr');
+var model = require('../model/clone-pair');
 
-
-function getClonePairsWithoutIndexMaking(inputDirectoryPath,threshold) {
+function getClonePairsWithoutIndexMaking(configuration) {
     "use strict";
-    var clonePair = new Array();
-    var functionList = contentProvider.getFunctionListForTypeThreeDetectorByInputDirectoryPath(inputDirectoryPath);
+    var clonePairs = new Array();
+    var functionList = contentProvider.getFunctionListForTypeThreeDetectorByInputDirectoryPath(configuration);
     functionList.forEach(function (method) {
         functionList.forEach(function (candidate) {
             if (method.methodID < candidate.methodID) {
                 if ((method != undefined) && (candidate != undefined)) {
-                    var isClone = similarityCalculator.isProbableClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, threshold);
+                    var isClone = similarityCalculator.isProbableClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, configuration.threshold);
                     if (isClone) {
                         var type = "Type-3";
-                        clonePair.push({'first': method, 'second': candidate, 'type': type});
+                        clonePairs.push(new model.ClonePair(method,candidate,type));
                     }
                 }
 
             }
         });
     });
-    return clonePair;
+    return clonePairs;
 }
 
 
-function getClonePairsWithIndexMaking(inputDirectoryPath,threshold)
+function getClonePairsWithIndexMaking(configuration)
 {
 
     "use strict";
-    var clonePair = new Array();
-    var functionList = contentProvider.getFunctionListForTypeThreeDetectorByInputDirectoryPath(inputDirectoryPath);
+    var clonePairs = new Array();
+    var functionList = contentProvider.getFunctionListForTypeThreeDetectorByInputDirectoryPath(configuration);
     var globalMap = gtpBuilder.createGlobalMap(functionList);
     var globalSortedMap = gtpBuilder.getSortedMapByFollowingAscendingKeyOrder(globalMap);
 
@@ -44,7 +51,7 @@ function getClonePairsWithIndexMaking(inputDirectoryPath,threshold)
     });
 
     functionList.forEach(function (method) {
-        var indexString = type3Tokenizer.getTokenIndexPortion(method.tokenFrequencyMap, threshold);
+        var indexString = type3Tokenizer.getTokenIndexPortion(method.tokenFrequencyMap, configuration.threshold);
         method.setIndexString(indexString);
     });
 
@@ -71,13 +78,13 @@ function getClonePairsWithIndexMaking(inputDirectoryPath,threshold)
                 var isClone = detector.isProbableClone(method.tokenFrequencyMap, candidate.tokenFrequencyMap, threshold);
                 if (isClone) {
                     var type = "Type-3";
-                    clonePair.push({'first': method, 'second': candidate, 'type': type});
+                    clonePairs.push(new model.ClonePair(method,candidate,type));
                 }
             }
         });
     });
 
-    return clonePair;
+    return clonePairs;
 }
 
 

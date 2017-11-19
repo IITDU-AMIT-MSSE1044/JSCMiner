@@ -2,253 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d85289-5120-4e08-aa44-5a22154ca271" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/JSCMiner_node_modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/escodegen" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/escodegen.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/esgenerate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/esgenerate.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/esparse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/esparse.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/CHANGELOG.mdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/CONTRIBUTING.mdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/VERSION" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/build/bower.json.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/build/component.json.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/build/package.json.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/build/release.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/build/wrapper_end" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/build/wrapper_start" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/configuration.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/document_store.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/elasticlunr.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/event_emitter.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/index.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/inverted_index.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/pipeline.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/sorted_set.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/stemmer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/stop_word_filter.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/tokenizer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/trimmer.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/docs/utils.js.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/elasticlunr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/elasticlunr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/css/sticky-footer-navbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/css/styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/elasticlunr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/elasticlunr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/example_data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/example_index.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/index_builder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/templates/question_list.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/templates/question_view.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/example/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/configuration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/document_store.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/elasticlunr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/event_emitter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/inverted_index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/pipeline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/sorted_set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/stemmer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/stop_word_filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/tokenizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/trimmer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/notes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/release/elasticlunr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/release/elasticlunr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/configuration_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/document_store_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/elasticlunr_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/env/augment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/env/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/env/qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/env/qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/env/runner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/event_emitter_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/fixtures/stemming_vocab.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/index_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/inverted_index_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/pipeline_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/runner.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/search_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/serialisation_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/stemmer_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/stop_word_filter_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/test_helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/tokenizer_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/trimmer_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/elasticlunr/test/utils_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/LICENSE.BSD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/LICENSE.source-map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/bin/escodegen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/bin/esgenerate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/escodegen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/.bin/esparse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/.bin/esparse.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/.bin/esvalidate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/.bin/esvalidate.cmd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esprima/ChangeLog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esprima/LICENSE.BSD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esprima/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esprima/bin/esparse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esprima/bin/esvalidate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esprima/esprima.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esprima/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/estraverse/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/estraverse/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/estraverse/LICENSE.BSD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/estraverse/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/estraverse/estraverse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/estraverse/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/estraverse/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esutils/LICENSE.BSD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esutils/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esutils/lib/ast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esutils/lib/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esutils/lib/keyword.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esutils/lib/utils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/esutils/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/lib/help.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/lib/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/deep-is/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/deep-is/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/deep-is/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/deep-is/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/deep-is/example/cmp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/deep-is/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/deep-is/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/deep-is/test/NaN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/deep-is/test/cmp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/deep-is/test/neg-vs-pos-0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/fast-levenshtein/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/fast-levenshtein/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/fast-levenshtein/levenshtein.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/fast-levenshtein/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/levn/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/levn/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/levn/lib/cast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/levn/lib/coerce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/levn/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/levn/lib/parse-string.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/levn/lib/parse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/levn/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/prelude-ls/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/prelude-ls/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/prelude-ls/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/prelude-ls/lib/Func.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/prelude-ls/lib/List.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/prelude-ls/lib/Num.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/prelude-ls/lib/Obj.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/prelude-ls/lib/Str.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/prelude-ls/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/prelude-ls/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/type-check/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/type-check/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/type-check/lib/check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/type-check/lib/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/type-check/lib/parse-type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/type-check/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/wordwrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/wordwrap/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/wordwrap/example/center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/wordwrap/example/meat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/wordwrap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/wordwrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/wordwrap/test/break.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/wordwrap/test/idleness.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/node_modules/wordwrap/test/wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/optionator/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/Makefile.dryice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/build/assert-shim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/build/mini-require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/build/prefix-source-map.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/build/prefix-utils.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/build/suffix-browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/build/suffix-source-map.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/build/suffix-utils.jsm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/build/test-prefix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/build/test-suffix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/array-set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/base64-vlq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/basic-source-map-consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/binary-search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/indexed-source-map-consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/mapping-list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/source-map-consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/source-map-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/source-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/lib/source-map/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/node_modules/amdefine/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/node_modules/amdefine/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/node_modules/amdefine/amdefine.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/node_modules/amdefine/intercept.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/node_modules/amdefine/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/run-tests.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/test-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/test-array-set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/test-base64-vlq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/test-base64.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/test-binary-search.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/test-dog-fooding.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/test-source-map-consumer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/test-source-map-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/test-source-node.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/test-util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/node_modules/source-map/test/source-map/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/escodegen/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esprima/ChangeLog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esprima/LICENSE.BSD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esprima/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esprima/bin/esparse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esprima/bin/esvalidate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esprima/dist/esprima.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/esprima/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/estraverse/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/estraverse/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/estraverse/LICENSE.BSD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/estraverse/estraverse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/estraverse/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/estraverse/package.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/JSCMiner.iml" afterPath="$PROJECT_DIR$/.idea/JSCMiner.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/model/clone-pair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/token-processor/type-1-tokenizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/token-processor/type-2-tokenizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/token-processor/type-3-tokenizer.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/indexingAndSearching.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main_tokenAndHeaderFileMaking.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/model/clone-pair.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token-processor/type-1-Tokenizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token-processor/type-2-Tokenizer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/token-processor/type-3-Tokenizer.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clone-detector/content-provider.js" afterPath="$PROJECT_DIR$/src/clone-detector/content-provider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clone-detector/interface-clone-detector.js" afterPath="$PROJECT_DIR$/src/clone-detector/interface-clone-detector.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clone-detector/test.js" afterPath="$PROJECT_DIR$/src/gtp-calulator/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clone-detector/type-1-detector.js" afterPath="$PROJECT_DIR$/src/clone-detector/type-1-detector.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clone-detector/type-2-detector.js" afterPath="$PROJECT_DIR$/src/clone-detector/type-2-detector.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/clone-detector/type-3-detector.js" afterPath="$PROJECT_DIR$/src/clone-detector/type-3-detector.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/code-block-processor/block-level-extractor.js" afterPath="$PROJECT_DIR$/src/code-block-processor/block-level-extractor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/code-block-processor/file-content-reader.js" afterPath="$PROJECT_DIR$/src/code-block-processor/file-content-reader.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/code-block-processor/file-level-extractor.js" afterPath="$PROJECT_DIR$/src/code-block-processor/file-level-extractor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/code-block-processor/function-level-extractor.js" afterPath="$PROJECT_DIR$/src/code-block-processor/function-level-extractor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/code-block-processor/interface-code-block-procssor.js" afterPath="$PROJECT_DIR$/src/code-block-processor/interface-code-block-procssor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/code-block-processor/test.js" afterPath="$PROJECT_DIR$/src/code-block-processor/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gtp-calulator/gtp-calculator.js" afterPath="$PROJECT_DIR$/src/gtp-calulator/gtp-calculator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gtp-calulator/test.js" afterPath="$PROJECT_DIR$/src/clone-detector/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jscminer-configurator/interface-jscminer-configurator.js" afterPath="$PROJECT_DIR$/src/jscminer-configurator/interface-jscminer-configurator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jscminer-configurator/parameter-configuration.js" afterPath="$PROJECT_DIR$/src/jscminer-configurator/parameter-configuration.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jscminer-configurator/projgress-bar.js" afterPath="$PROJECT_DIR$/src/jscminer-configurator/projgress-bar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jscminer-configurator/test.js" afterPath="$PROJECT_DIR$/src/jscminer-configurator/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/model/method.js" afterPath="$PROJECT_DIR$/src/model/method.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/model/source-file.js" afterPath="$PROJECT_DIR$/src/model/source-file.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/similarity-calculator/cosine-similarity-calcuator.js" afterPath="$PROJECT_DIR$/src/similarity-calculator/cosine-similarity-calcuator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/similarity-calculator/interface-similarity-calulator.js" afterPath="$PROJECT_DIR$/src/similarity-calculator/interface-similarity-calulator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/similarity-calculator/jaccard-similarity-calculator.js" afterPath="$PROJECT_DIR$/src/similarity-calculator/jaccard-similarity-calculator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/similarity-calculator/overlap-similarity-calculator.js" afterPath="$PROJECT_DIR$/src/similarity-calculator/overlap-similarity-calculator.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/similarity-calculator/test.js" afterPath="$PROJECT_DIR$/src/similarity-calculator/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/token-processor/test.js" afterPath="$PROJECT_DIR$/src/token-processor/test.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/token-processor/tokenizer.js" afterPath="$PROJECT_DIR$/src/token-processor/tokenizer.js" />
     </list>
     <ignored path="JSCMiner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -262,7 +56,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="JSCMiner" />
   </component>
@@ -282,21 +75,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tokenProcessor/type1Tokenizer.js" />
-        <option value="$PROJECT_DIR$/tokenProcessor/type2Tokenizer.js" />
-        <option value="$PROJECT_DIR$/GTPTest.js" />
-        <option value="$PROJECT_DIR$/indexing/search.js" />
-        <option value="$PROJECT_DIR$/indexing/example_data.json" />
-        <option value="$PROJECT_DIR$/cloneDetector/contentLoader.js" />
-        <option value="$PROJECT_DIR$/GTP/GTPTest.js" />
-        <option value="$PROJECT_DIR$/util/mapSortingTest.js" />
-        <option value="$PROJECT_DIR$/tokenProcessor/type3Tokenizer.js" />
-        <option value="$PROJECT_DIR$/main_indexing_test.js" />
-        <option value="$PROJECT_DIR$/indexing/testIndex.js" />
         <option value="$PROJECT_DIR$/tokenProcessor/tokenizer.js" />
         <option value="$PROJECT_DIR$/model/sourceFile.js" />
         <option value="$PROJECT_DIR$/codeBlockProcessor/methodLevelExtractor.js" />
-        <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/similarityCalculator/cloneDetectorCosineSimilarity.js" />
         <option value="$PROJECT_DIR$/similarityCalculator/cloneDetectorHashingSiilarity.js" />
         <option value="$PROJECT_DIR$/similarityCalculator/cloneDetectorJaccardSimilarity.js" />
@@ -317,10 +98,7 @@
         <option value="$PROJECT_DIR$/codeBlockProcessor/interface-Code-Block-Procssor.js" />
         <option value="$PROJECT_DIR$/similarity-calculator/interface-similarity-calulator.js" />
         <option value="$PROJECT_DIR$/indexingAndSearching.js" />
-        <option value="$PROJECT_DIR$/clone-detector/type-1-detector.js" />
-        <option value="$PROJECT_DIR$/clone-detector/type-2-detector.js" />
         <option value="$PROJECT_DIR$/token-processor/type-2-tokenizer.js" />
-        <option value="$PROJECT_DIR$/clone-detector/type-3-detector.js" />
         <option value="$PROJECT_DIR$/clone-detector/content-provider.js" />
         <option value="$PROJECT_DIR$/code-block-processor/function-level-extractor.js" />
         <option value="$PROJECT_DIR$/model/method.js" />
@@ -329,10 +107,25 @@
         <option value="$PROJECT_DIR$/code-block-processor/test.js" />
         <option value="$PROJECT_DIR$/clone-detector/test.js" />
         <option value="$PROJECT_DIR$/app-configurator/interface-jscminer-configurator.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/jscminer-configurator/test.js" />
         <option value="$PROJECT_DIR$/jscminer-configurator/parameter-configuration.js" />
         <option value="$PROJECT_DIR$/jscminer-configurator/projgress-bar.js" />
+        <option value="$PROJECT_DIR$/clone-detector/type-1-detector.js" />
+        <option value="$PROJECT_DIR$/clone-detector/type-2-detector.js" />
+        <option value="$PROJECT_DIR$/clone-detector/type-3-detector.js" />
+        <option value="$PROJECT_DIR$/model/clone-pair.js" />
+        <option value="$PROJECT_DIR$/src/jscminer-configurator/test.js" />
+        <option value="$PROJECT_DIR$/src/clone-detector/test.js" />
+        <option value="$PROJECT_DIR$/src/clone-detector/type-2-detector.js" />
+        <option value="$PROJECT_DIR$/src/clone-detector/type-3-detector.js" />
+        <option value="$PROJECT_DIR$/src/model/clone-pair.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/main.js" />
+        <option value="$PROJECT_DIR$/src/jscminer-configurator/parameter-configuration.js" />
+        <option value="$PROJECT_DIR$/src/clone-detector/type-1-detector.js" />
+        <option value="$PROJECT_DIR$/src/clone-detector/interface-clone-detector.js" />
+        <option value="$PROJECT_DIR$/src/clone-detector/content-provider.js" />
       </list>
     </option>
   </component>
@@ -378,22 +171,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSCMiner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSCMiner" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="JSCMiner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSCMiner" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,17 +194,18 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NodeChildProcessTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Masters\MastersLab\MastersNodeJSWork\JSCMiner\GTP" />
-      <recent name="D:\Masters\MastersLab\MastersNodeJSWork\JSCMiner\cloneDetector" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Masters\MastersLab\MastersNodeJSWork\JSCMiner" />
       <recent name="D:\Masters\MastersLab\MastersNodeJSWork\JSCMiner\test-dataset" />
+      <recent name="D:\Masters\MastersLab\MastersNodeJSWork\JSCMiner\cloneDetector" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Masters\MastersLab\MastersNodeJSWork\JSCMiner\src" />
+      <recent name="D:\Masters\MastersLab\MastersNodeJSWork\JSCMiner\GTP" />
       <recent name="D:\Masters\MastersLab\MastersNodeJSWork\JSCMiner\cloneDetector" />
     </key>
   </component>
@@ -430,21 +221,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.main_indexing_test.js">
-    <configuration default="false" name="type3Tokenizer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/token-processor/type-3-tokenizer.js" working-dir="$PROJECT_DIR$/token-processor">
-      <method />
+  <component name="RunManager" selected="Node.js.main.js">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
     </configuration>
-    <configuration default="false" name="indexingAndSearching.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="indexingAndSearching.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="false" name="tokenizer.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/token-processor/tokenizer.js" working-dir="$PROJECT_DIR$/token-processor">
-      <method />
-    </configuration>
-    <configuration default="false" name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
-      <method />
-    </configuration>
-    <configuration default="false" name="main_indexing_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="main_tokenAndHeaderFileMaking.js" working-dir="$PROJECT_DIR$">
-      <method />
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -476,15 +272,6 @@
       <option name="filePath" />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -492,33 +279,47 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
+    <configuration name="indexingAndSearching.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="indexingAndSearching.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="interface-clone-detector.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="interface-clone-detector.js" working-dir="$PROJECT_DIR$/src/clone-detector" />
+    <configuration name="main_indexing_test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="main_tokenAndHeaderFileMaking.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="main.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="main.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="test.js" working-dir="$PROJECT_DIR$/src/jscminer-configurator">
+      <EXTENSION ID="com.jetbrains.nodejs.remote.docker.NodeJSDockerRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="version" value="1" />
+        <option name="volumeBindings">
+          <list />
+        </option>
+      </EXTENSION>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.type3Tokenizer.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.indexingAndSearching.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.tokenizer.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.main.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.main_indexing_test.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.indexingAndSearching.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.main.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.main_indexing_test.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.interface-clone-detector.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.main_indexing_test.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.main.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.indexingAndSearching.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.tokenizer.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.type3Tokenizer.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.main.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.interface-clone-detector.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.test.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.main_indexing_test.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.indexingAndSearching.js" />
       </list>
     </recent_temporary>
   </component>
@@ -559,32 +360,43 @@
       <workItem from="1510360764503" duration="1834000" />
       <workItem from="1510486975756" duration="7327000" />
       <workItem from="1510542834080" duration="4969000" />
+      <workItem from="1510822168244" duration="36000" />
+      <workItem from="1511075341789" duration="15838000" />
+      <workItem from="1511120297727" duration="3418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86899000" />
+    <option name="totallyTimeSpent" value="106191000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25256222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2137628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2601626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38510302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24981357" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35284552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42313787" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -608,7 +420,7 @@
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -623,147 +435,38 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="46" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/esprima/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/esprima/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/indexing/example_data.json" />
     <entry file="file://$PROJECT_DIR$/indexing/example_index.json" />
     <entry file="file://$PROJECT_DIR$/node_modules/lunr/index.html" />
     <entry file="file://$PROJECT_DIR$/node_modules/lunr/README.md" />
-    <entry file="file://$PROJECT_DIR$/model/source-file.js" />
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="21" lean-forward="false" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/similarityCalculator/cloneDetectorHashingSiilarity.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/clone-pair.js" />
-    <entry file="file://$PROJECT_DIR$/tokenProcessor/hasingTokenizer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gtp-calulator/gtp-calculator.js" />
-    <entry file="file://$PROJECT_DIR$/code-block-processor/block-level-extractor.js" />
-    <entry file="file://$PROJECT_DIR$/code-block-processor/file-content-reader.js" />
-    <entry file="file://$PROJECT_DIR$/code-block-processor/file-level-extractor.js" />
-    <entry file="file://$PROJECT_DIR$/code-block-processor/interface-code-block-procssor.js" />
-    <entry file="file://$PROJECT_DIR$/indexing/testIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indexing/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/similarity-calculator/overlap-similarity-calculator.js" />
-    <entry file="file://$PROJECT_DIR$/similarity-calculator/jaccard-similarity-calculator.js" />
-    <entry file="file://$PROJECT_DIR$/similarity-calculator/interface-similarity-calulator.js" />
-    <entry file="file://$PROJECT_DIR$/similarity-calculator/cosine-similarity-calcuator.js" />
-    <entry file="file://$PROJECT_DIR$/token-processor/test.js" />
-    <entry file="file://$PROJECT_DIR$/clone-detector/interface-clone-detector.js" />
-    <entry file="file://$PROJECT_DIR$/token-processor/type-3-Tokenizer.js" />
-    <entry file="file://$PROJECT_DIR$/clone-detector/type-2-detector.js" />
-    <entry file="file://$PROJECT_DIR$/token-processor/type-2-Tokenizer.js" />
-    <entry file="file://$PROJECT_DIR$/clone-detector/type-1-detector.js" />
-    <entry file="file://$PROJECT_DIR$/clone-detector/type-3-detector.js" />
-    <entry file="file://$PROJECT_DIR$/token-processor/tokenizer.js" />
-    <entry file="file://$PROJECT_DIR$/clone-detector/content-provider.js" />
-    <entry file="file://$PROJECT_DIR$/model/method.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code-block-processor/function-level-extractor.js" />
-    <entry file="file://$PROJECT_DIR$/main_tokenAndHeaderFileMaking.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indexingAndSearching.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/source-file.js" />
+    <entry file="file://$PROJECT_DIR$/similarityCalculator/cloneDetectorHashingSiilarity.js" />
+    <entry file="file://$PROJECT_DIR$/tokenProcessor/hasingTokenizer.js" />
+    <entry file="file://$PROJECT_DIR$/util/util.js" />
+    <entry file="file://$PROJECT_DIR$/src/gtp-calulator/gtp-calculator.js" />
+    <entry file="file://$PROJECT_DIR$/src/code-block-processor/block-level-extractor.js" />
+    <entry file="file://$PROJECT_DIR$/src/code-block-processor/file-content-reader.js" />
+    <entry file="file://$PROJECT_DIR$/src/code-block-processor/file-level-extractor.js" />
+    <entry file="file://$PROJECT_DIR$/src/code-block-processor/interface-code-block-procssor.js" />
+    <entry file="file://$PROJECT_DIR$/indexing/testIndex.js" />
+    <entry file="file://$PROJECT_DIR$/indexing/search.js" />
+    <entry file="file://$PROJECT_DIR$/src/similarity-calculator/jaccard-similarity-calculator.js" />
+    <entry file="file://$PROJECT_DIR$/src/similarity-calculator/interface-similarity-calulator.js" />
+    <entry file="file://$PROJECT_DIR$/src/token-processor/test.js" />
+    <entry file="file://$PROJECT_DIR$/src/token-processor/type-3-tokenizer.js" />
+    <entry file="file://$PROJECT_DIR$/src/token-processor/type-2-tokenizer.js" />
+    <entry file="file://$PROJECT_DIR$/src/token-processor/tokenizer.js" />
     <entry file="file://$PROJECT_DIR$/gtp-calulator/GTPTest.js" />
-    <entry file="file://$PROJECT_DIR$/token-processor/type-1-Tokenizer.js" />
-    <entry file="file://$PROJECT_DIR$/util/mapSortingTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gtp-calulator/test.js" />
-    <entry file="file://$PROJECT_DIR$/code-block-processor/test.js" />
-    <entry file="file://$PROJECT_DIR$/clone-detector/test.js" />
-    <entry file="file://$PROJECT_DIR$/raf.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Node.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/token-processor/type-1-tokenizer.js" />
+    <entry file="file://$PROJECT_DIR$/util/mapSortingTest.js" />
+    <entry file="file://$PROJECT_DIR$/src/gtp-calulator/test.js" />
+    <entry file="file://$PROJECT_DIR$/src/code-block-processor/test.js" />
+    <entry file="file://$PROJECT_DIR$/raf.txt" />
     <entry file="file://$PROJECT_DIR$/node_modules/elasticlunr/VERSION">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -771,42 +474,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jscminer-configurator/interface-jscminer-configurator.js">
+    <entry file="file://$PROJECT_DIR$/src/jscminer-configurator/projgress-bar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/similarity-calculator/cosine-similarity-calcuator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/similarity-calculator/overlap-similarity-calculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/code-block-processor/function-level-extractor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexingAndSearching.js" />
+    <entry file="file://$PROJECT_DIR$/main_tokenAndHeaderFileMaking.js" />
+    <entry file="file://$PROJECT_DIR$/Node.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jscminer-configurator/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone-detector/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JetBrains.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone-detector/type-3-detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1141">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone-detector/type-2-detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-770">
+          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!block;n#isParametricArraysEqual#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/method.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/clone-pair.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jscminer-configurator/interface-jscminer-configurator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        <state relative-caret-position="5">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jscminer-configurator/test.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jscminer-configurator/parameter-configuration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jscminer-configurator/projgress-bar.js">
+    <entry file="file://$PROJECT_DIR$/src/clone-detector/content-provider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="253">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!block;n#getFunctionListForTypeTwoDetectorByInputDirectoryPath#0" expanded="false" />
+            <element signature="n#!!block;n#getFunctionListForTypeThreeDetectorByInputDirectoryPath#0" expanded="false" />
+            <element signature="n#!!block;n#getCompleteFunctionListByDirectoryPath#0" expanded="false" />
+            <element signature="n#!!block;n#getRawFunctionListByDirectoryPath#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clone-detector/type-1-detector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jscminer-configurator/parameter-configuration.js">
+    <entry file="file://$PROJECT_DIR$/src/clone-detector/interface-clone-detector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="10" lean-forward="true" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+        <state relative-caret-position="158">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clones.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1579">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

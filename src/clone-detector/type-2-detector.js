@@ -1,31 +1,38 @@
+module.exports.getClonePairsWithoutIndexMaking=getClonePairsWithoutIndexMaking;
+module.exports.getClonePairsWithIndexMaking=getClonePairsWithIndexMaking;
+
+
 const contentProvider=require('./content-provider');
-function getClonePairsWithoutIndexMaking(inputDirectoryPath)
+var elasticlunr = require('elasticlunr');
+var model = require('../model/clone-pair');
+
+function getClonePairsWithoutIndexMaking(configuration)
 {
     "use strict";
-    var clonePair = new Array();
-    var functionList=contentProvider.getFunctionListForTypeTwoDetectorByInputDirectoryPath(inputDirectoryPath);
+    var clonePairs = new Array();
+    var functionList=contentProvider.getFunctionListForTypeTwoDetectorByInputDirectoryPath(configuration);
     functionList.forEach(function (method) {
         functionList.forEach(function (candidate) {
             if (method.methodID < candidate.methodID) {
                 if ((method != undefined) && (candidate != undefined)) {
-                    if (isPerametricArraysEqual(method.tokenParametricArray, candidate.tokenParametricArray)) {
+                    if (isParametricArraysEqual(method.tokenParametricArray, candidate.tokenParametricArray)) {
                         var type = "Type-2";
-                        clonePair.push({'first': method, 'second': candidate, 'type': type});
+                        clonePairs.push(new model.ClonePair(method,candidate,type));
                     }
                 }
 
             }
         });
     });
-    return clonePair;
+    return clonePairs;
 }
 
 
-function getClonePairsWithIndexMaking(inputDirectoryPath)
+function getClonePairsWithIndexMaking(configuration)
 {
     "use strict";
-    var clonePair = new Array();
-    var functionList = contentProvider.getFunctionListForTypeTwoDetectorByInputDirectoryPath(inputDirectoryPath);
+    var clonePairs = new Array();
+    var functionList = contentProvider.getFunctionListForTypeTwoDetectorByInputDirectoryPath(configuration);
     var indexer = elasticlunr(function () {
         this.setRef('id');
         this.addField('tokenHashValueParametricArray');
@@ -46,20 +53,15 @@ function getClonePairsWithIndexMaking(inputDirectoryPath)
             if ((method != undefined) && (candidate != undefined)) {
                 if (method.tokenHashValueParametricArray === candidate.tokenHashValueParametricArray) {
                     var type = "Type-2";
-                    clonePair.push({'first': method, 'second': candidate, 'type': type});
+                    clonePairs.push(new model.ClonePair(method,candidate,type));
                 }
             }
         });
     });
-    return clonePair;
+    return clonePairs;
 }
 
-
-
-
-
-
-function isPerametricArraysEqual(a, b) {
+function isParametricArraysEqual(a, b) {
     if (a === b) return true;
     if (a == null || b == null) return false;
     if (a.length != b.length) return false;

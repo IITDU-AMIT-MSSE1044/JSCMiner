@@ -3,7 +3,7 @@ module.exports.extractJSFile = extractJSFile;
 var esprima = require('esprima');
 var estraverse = require('estraverse');
 var escodegen = require('escodegen');
-var model = require('./../model/method');
+var model = require('../model/method');
 var tokenizer=require('../token-processor/tokenizer');
 
 

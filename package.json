@@ -20,7 +20,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "help": "./help.js"
+    "jscminer": "./main.js"
   },
   "repository": {
     "type": "git",
@@ -37,5 +37,7 @@
     "url": "https://github.com/MisuBeImp/JSCMiner/issues"
   },
   "homepage": "https://github.com/MisuBeImp/JSCMiner/#readme",
-  "devDependencies": {}
+  "devDependencies": {
+
+  }
 }
