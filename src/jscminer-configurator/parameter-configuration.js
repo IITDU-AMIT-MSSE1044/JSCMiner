@@ -1,6 +1,5 @@
 module.exports.getConfiguration = getConfiguration;
 
-
 var chalk = require('chalk');
 var clear = require('clear');
 var figlet = require('figlet');
@@ -8,8 +7,6 @@ var inquirer = require('inquirer');
 var argv = require('minimist')(process.argv.slice(2));
 var progressBar = require('./projgress-bar.js');
 var colors = require('colors');
-
-
 var cloneDetector = require('../clone-detector/interface-clone-detector');
 
 function getConfiguration() {
@@ -93,7 +90,7 @@ function getConfiguration() {
             type: 'input',
             name: 'threshold',
             message: 'Set similarity threshold: '.white.bold,
-            default: argv._[0] || 1,
+            default: argv._[0] || 100,
             validate: function isInt(value) {
                 if (!isNaN(value) && parseInt(Number(value)) == value && !isNaN(parseInt(value, 10))) {
                     return true;

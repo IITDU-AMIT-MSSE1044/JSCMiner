@@ -1,5 +1,4 @@
 var configurator= require('./src/jscminer-configurator/parameter-configuration');
-
 configurator.getConfiguration();
 
 
