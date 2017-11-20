@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MisuBeImp/JSCMiner.git"
+    "url": "git+https://github.com/IITDU-AMIT-MSSE1044/JSCMiner.git"
   },
   "keywords": [
     "JSCMiner",
@@ -34,9 +34,9 @@
   "author": "MisuBeImp",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MisuBeImp/JSCMiner/issues"
+    "url": "https://github.com/IITDU-AMIT-MSSE1044/JSCMiner/issues"
   },
-  "homepage": "https://github.com/MisuBeImp/JSCMiner/#readme",
+  "homepage": "https://github.com/IITDU-AMIT-MSSE1044/JSCMiner/#readme",
   "devDependencies": {
 
   }
